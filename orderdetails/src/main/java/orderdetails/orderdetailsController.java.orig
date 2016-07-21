@@ -1,0 +1,14 @@
+package orderdetails;
+
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@RestController
+
+public class orderdetailsController {
+    
+    @RequestMapping("/")
+    public String index() {
+        return "<root><Customer><email>customer@ca.com</email><boughtBook>harry potter</boughtBook></Customer><Customer><email>customer@ca.com</email><boughtBook >harry potter 2</boughtBook></Customer><Customer><email>customer2@ca.com</email><boughtBook >Jurassic Park</boughtBook></Customer></root>";
+    }
+}

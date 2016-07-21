@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: orderdetails
+  cloud:
+    config:
+      uri: http://configserver:8888
+encrypt:
+  failOnError: false

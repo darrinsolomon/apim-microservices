@@ -1,0 +1,14 @@
+package users;
+
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@RestController
+
+public class usersController {
+    
+    @RequestMapping("/")
+    public String index() {
+        return "<root><Customer><email>customer@ca.com</email><zip>11749</zip></Customer><Customer><email>customer2@ca.com</email><zip>10002</zip></Customer></root>";
+    }
+}
