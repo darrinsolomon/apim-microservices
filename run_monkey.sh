@@ -1,6 +1,6 @@
-export SSG_LICENSE="$(cat /home/solda01/git.hub/darrinsolomon/pre-sales/docker/CATechnologies_8011955308725460639_SSG_Gateway_9.xml | gzip | base64)"
+export SSG_LICENSE="$(cat /home/solda01/github/localrepo/apim/docker/CATechnologies_8011955308725460639_SSG_Gateway_9.xml | gzip | base64)"
 mvn clean install
-cd /home/solda01/git.hub/darrinsolomon/pre-sales/docker
+cd /home/solda01/github/localrepo/apim/docker
 #docker start 48664509d6fa c4f1cb265611
 docker run \
         -d \
@@ -8,7 +8,7 @@ docker run \
         -e MYSQL_DATABASE=lacadmindb \
         -e MYSQL_USER=lacadminuser \
         -e MYSQL_PASSWORD=Password2 \
-        --volume=/home/solda01/git.hub/darrinsolomon/pre-sales/lacadmin:/var/lib/mysql \
+        --volume=/home/solda01/github/localrepo/apim/lacadmin:/var/lib/mysql \
         -p 3306:3306 \
         mysql:5.6.29
 		
