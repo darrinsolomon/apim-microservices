@@ -1,14 +1,12 @@
-export SSG_LICENSE="$(cat /home/solda01/github/localrepo/apim/docker/CATechnologies_8011955308725460639_SSG_Gateway_9.xml | gzip | base64)"
+export SSG_LICENSE="$(cat $HOME/CATechnologies_8011955308725460639_SSG_Gateway_9.xml | gzip | base64)"
 mvn clean install
-cd /home/solda01/github/localrepo/apim/docker
-#docker start 48664509d6fa c4f1cb265611
 docker run \
         -d \
         -e MYSQL_ROOT_PASSWORD=Password1 \
         -e MYSQL_DATABASE=lacadmindb \
         -e MYSQL_USER=lacadminuser \
         -e MYSQL_PASSWORD=Password2 \
-        --volume=/home/solda01/github/localrepo/apim/lacadmin:/var/lib/mysql \
+        --volume=$PWD/lacadmin:/var/lib/mysql \
         -p 3306:3306 \
         mysql:5.6.29
 		
@@ -22,4 +20,5 @@ docker run \
         -e LAC_ADMIN_MAX_CONN=100 \
         -p 9090:8080 \
         caliveapicreator/release
+cd docker
 docker-compose up

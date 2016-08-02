@@ -1,1 +1,46 @@
 CA APIM + Microservices Demo
+
+Demo Recording: https://catechnologies.webex.com/catechnologies/lsr.php?RCID=21f80c9e4f164d378c5c0fe31f31301b
+
+route, orchestrate, threat, lac
+
+requires maven and docker
+
+you must bring your own license.  In the run_monkey script, you'll see reference to CATechnologies_8011955308725460639_SSG_Gateway_9.xml.  Rename/move/whatever that path and point to your own license.
+
+I have a persistent database that LAC is exposing --volume=$PWD/lacadmin:/var/lib/mysql \  Permissions should have been transferrable with root@%
+
+the simian army: 
+run_monkey - goes through a maven build of all microservices, deploys SSG and LAC
+chaos_monkey - will search for hello microservices, and kill one randomly
+fix_monkey - will search for killed hello microservices, and restart it
+clean_monkey - will reset the demo (doesn't kill SSG or LAC images, as they are big and take a long time to download in a demo when running "run_monkey")
+
+setup, fork repo and laydown on your docker environment.
+
+from the root of that directory, run_monkey should deploy all of your microservices.
+
+you can login to Eureka: http://docker-machine:8761 and http://docker-machine:8761/eureka/apps
+
+you can launch ssg 9.1 pmadmin/7layer docker-machine:8443
+
+you can load microservices policy xml with * service resolution, change eureka route, all other routes will look to http://docker-machine:8761/eureka/apps
+
+how to demo:
+
+Scenerio 1 - Dynamic Routing and Threat
+$ while :
+$ curl -w '\n' -H "action:hello" http://docker-machine:8080
+$ sleep 1
+$ done
+
+from another terminal, run ./chaos_monkey...  you can run it 2x's, 3x's, etc. (will take upto 30 seconds to register)
+to start fixing, run ./fix_monkey
+
+Change the above sleep to "0", to demo DoS against policy
+
+Scenerio 2 - Orchestration
+curl -w '\n' -H "action:orchestrate" http://docker-machine:8080
+
+This will go to the users and orders microservices, and create a json payload. That payload is then sent to the rest API exposed by LAC and posts the objects to the datasource 
+
