@@ -1,0 +1,122 @@
+Aug 10, 2016 9:43:06 AM com.ca.gateway.rest.commandline.Main main
+INFO: No command given. Printing available commands.
+Aug 10, 2016 9:44:26 AM com.ca.gateway.rest.commandline.Main main
+INFO: No command given. Printing available commands.
+Aug 10, 2016 9:46:30 AM com.ca.gateway.rest.commandline.Main main
+INFO: No command given. Printing available commands.
+Aug 10, 2016 9:50:24 AM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Aug 10, 2016 9:50:24 AM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Aug 10, 2016 9:51:04 AM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Aug 10, 2016 9:51:04 AM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Aug 10, 2016 9:52:00 AM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Aug 10, 2016 9:52:00 AM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Aug 10, 2016 9:52:10 AM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Aug 10, 2016 9:52:10 AM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Aug 10, 2016 9:52:52 AM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Aug 10, 2016 9:52:52 AM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Aug 10, 2016 9:53:43 AM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Aug 10, 2016 9:53:43 AM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Aug 10, 2016 9:53:43 AM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateOut
+Aug 10, 2016 9:53:44 AM com.ca.gateway.rest.commandline.command.Command runCommand
+WARNING: Error executing command
+javax.ws.rs.ProcessingException: java.net.ConnectException: Connection refused
+	at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:184)
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:227)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:655)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:652)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:228)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:422)
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:652)
+	at com.ca.gateway.rest.api.GatewayManagementGatewayClient$IP10Bundle.getAsItemReferenceType(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.BundleResource.getBundle(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateOutCommand.a(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateOutCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.GatewayCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.Command.runCommand(Unknown Source)
+	at com.ca.gateway.rest.commandline.Main.main(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1105)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1513)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:338)
+	at org.glassfish.jersey.client.HttpUrlConnector._apply(HttpUrlConnector.java:276)
+	at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:182)
+	... 15 more
+
+Aug 10, 2016 9:58:15 AM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Aug 10, 2016 9:58:15 AM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Aug 10, 2016 9:58:15 AM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateOut
+Aug 10, 2016 10:04:19 AM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Aug 10, 2016 10:04:19 AM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Aug 10, 2016 10:04:19 AM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateOut
+Aug 10, 2016 10:07:54 AM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Aug 10, 2016 10:07:54 AM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Aug 10, 2016 10:08:49 AM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Aug 10, 2016 10:08:49 AM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Aug 10, 2016 10:08:49 AM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn
+Aug 10, 2016 10:12:52 AM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Aug 10, 2016 10:12:52 AM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Aug 10, 2016 10:12:52 AM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn
+Aug 10, 2016 10:33:53 AM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Aug 10, 2016 10:33:53 AM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Aug 10, 2016 10:33:53 AM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn
+Aug 10, 2016 11:12:44 AM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Aug 10, 2016 11:12:44 AM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Aug 10, 2016 11:12:44 AM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn
+Aug 10, 2016 1:03:18 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Aug 10, 2016 1:03:18 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Aug 10, 2016 1:03:18 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn

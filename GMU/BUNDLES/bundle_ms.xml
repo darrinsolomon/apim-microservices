@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<l7:Bundle xmlns:l7="http://ns.l7tech.com/2010/04/gateway-management">
+    <l7:References>
+        <l7:Item>
+            <l7:Name>SSL</l7:Name>
+            <l7:Id>00000000000000000000000000000002:SSL</l7:Id>
+            <l7:Type>SSG_KEY_ENTRY</l7:Type>
+            <l7:TimeStamp>2016-08-10T14:04:22.076Z</l7:TimeStamp>
+            <l7:Resource>
+                <l7:PrivateKey alias="SSL" id="00000000000000000000000000000002:SSL" keystoreId="00000000000000000000000000000002">
+                    <l7:CertificateChain>
+                        <l7:CertificateData>
+                            <l7:IssuerName>CN=localhost</l7:IssuerName>
+                            <l7:SerialNumber>16426864546692028763</l7:SerialNumber>
+                            <l7:SubjectName>CN=localhost</l7:SubjectName>
+                            <l7:Encoded>MIIC7TCCAdWgAwIBAgIJAOP38kWfCVlbMA0GCSqGSIb3DQEBDAUAMBQxEjAQBgNVBAMTCWxvY2FsaG9zdDAeFw0xNjA4MTAxMjU3NDBaFw0yNjA4MDgxMjU3NDBaMBQxEjAQBgNVBAMTCWxvY2FsaG9zdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAIRAUrV+ez+vriyDwL6P1TrCBzS6ZBPZtg9oZbROaaEVlO/KSJBQk0jZpI+/915szhKvGSWm8CHu0oYt0wmL9C8KF9/xKEBe0E1x/OI8ahkYdSnt7NatPRLitPdDYw7l9KRkvGjVyJIBxNfM8rUui97flyNtH8Zcn3W13CKAHYJf6QskKa+lpfoTsZT1sE4qqphAXZUOTKwmobBj1msqKatpIzmYpm15Q4BoJjDuoKDzWV9dit/O6myuLt1zTrMQI4DuYQ4fyr+4+CkYpK/fbOnuQb1FKXm/B7V0je+iDGj8C4CbpY1LBXTj/Np0K1iVxEZBOc71KHeqfUYcM3S1+DcCAwEAAaNCMEAwHQYDVR0OBBYEFGEY3CPOCKb1MaiWIHLU8DTLVSPZMB8GA1UdIwQYMBaAFGEY3CPOCKb1MaiWIHLU8DTLVSPZMA0GCSqGSIb3DQEBDAUAA4IBAQALIiRjOvf72HO0yVD/OEJqRGAdwSEqQJdhPUaN0IZGsfrCl26sliE/yXLJP55ojM+5KoezDnGYOMNeZmG7k+hKC9x2fw2EqgidGjPfZStS/6awJ0HHqxRk3+NrU/ZupniaHG5r5zQ3jGo9Er19TkcH6Pa7BOsK3CD2j5ThSuTIkHxKQtvpRwmBIRshiPs5sxnpPuioEFvGNhIdA9Q8wHR2x7Bdm/1H/hQvAgoqttdQB1RMn0p1RLME1CP6Dt+Rdhomlruunv4Um5U6ugPKMW1JgIRw52WLs1eGnuc2pAa0kCZWbPKpG/sQFHk5pIx/daDoWf4pJMhfUndejbQccj4C</l7:Encoded>
+                        </l7:CertificateData>
+                    </l7:CertificateChain>
+                    <l7:Properties>
+                        <l7:Property key="keyAlgorithm">
+                            <l7:StringValue>RSA</l7:StringValue>
+                        </l7:Property>
+                        <l7:Property key="keyData">
+                            <l7:StringValue algorithm="RSA" bundleKey="$L7C2$1bead,JF4dwDg3SeZinWmWGUnQVsSg1msHLFr44uT1BsND9R4=$etCp/TJozppr854ZW033guG39rZ2zZ5rhTJfAudo+zJQAkFmUiwDGbNodU5Z9qNDYady11WiRiqZX7fgupZXAHu/6CaJgsx4MvkEmWsWW5RN1XQhA24xa5WQC/UBdmlF">$L7C2$1,ykgeeeFPyHgyi/CTM5WXTR9PMunDe9m8q4GVDxqxqrE=$rCHTqg+hMtepQuy6xkSImrOU7Jho5t+ToNOwLhNuwaFU9OcriqFCxR6ZiZlaR1C7velNN4rUGWWGeSKS+jgNjDiX/8X2qcf18Cvnwr2qLbid8R5LQy39b/CmXr8b4gdbL3GBZ7oP+x7AQbwRmMLwjvkAj7Fzveei444YoA4VcfwRi1qVXob4cQzx023jCO4x56xFOYariKVOeP0zLLd7y69sPPGkEZVTWkgi86npuznxkQLDXxvCf/giFw8M3tRQHUszZk/0e+Y1JuJnkKb7KzKfAk4H/lG8rigtzKLILHZk7Z+Kh0i+sKId/n3bsImOUSvwtPDoeKMEh2R6NPMC33Y/F6kF3pyBE1SuFgJLS0XR0b01Zny7ZuTg2MlTjqKJItFY8/66jHYlYXdwXvv2V5YA5hrgZhLlJwPkk/otfiZdSs1A+6FSVUFhyTRtYZBOANejrTcar1f08MdfgbvqdjOfjG450lutvvdN3A334RztvTEG+Kixu45VRM3yKkoBTcwQqt3q03bam3sYgXHCwbpmDpEJLNPv2Vh4BGX+lIMWH/9b6j3Q78oAPSfuxbrGEf2372UMJSbWIbkq7WuUZOUl6VPld1gC1bMiS45p6sCA4HOq44+eOdpC/Wtjx4r6imV/0ylgsVxK16jcAmLs0PYy8yfmrdZxPrDULJiAToFS2W6no6O/8iYeSRiG+8u+h7W3s/0u/Xg3lPO+1XHX5QzNid8NG9CpISIzuCSWmShYSNfq1f2YmMeY37+KcnOJmzf1Mac0cgBhj2R/jmwzokB0YiqzlWr8K4opczNLlg9i8AyW4ZhGKbSZIf02WzmRf3QbeshY/QPRUXaLv4t79MYPmMs3pl4+MhjLrcv7nen8X0ZCvmBtfvq05gKPAYbSMFedqXZm67ZC90fAy2AoKy6xc1bzP7TA4r3qx21e7anu/LYKnNMYFLwhrphTgQ2GkteluAfTYcKqdKPSe3Jso43R+vGrknk0Aall9WbbKdiY/f1IAKCILFqvh/csts22wpw64V1Ezs167AiDIiRmKoYp9aVROEAnGzj0ltBY1j+OtH6eG3SIeQGAHs0tM5vGlhKufPOkxq0txr5y74B3+jZlTtsQ07ra1ays2UrHqgARSUbgH/NnvIRzvbkskcslsiih4P0axplcGF/MMQlsGz3vey6OAY+UvpZiss+He2Y0cq2BpHr7tVsfOV8jESR7oojTLSeaJ7LvQ2405v/uJ0cy+S9NkFW+bgDr4/K71PKiUqygOx4pC33FtUHWLucf5U4IknHrFsx1Z/QslKxaH8CHlESCZ6XUvjla1g7ME0e+GKq5XK7UedseOgeDcIITA37yElERvrrybhqaMIxBn3qu0sZRYndM6hEcTVDoOo6sFDApQNWX0kMTlFjts8b+BgbwAATc5DqrgQgvwxGhOVwUhRvQFaYRSmlwjOR3YTaQQcdeu0hnMh/Us/LY3IXo/0blAtJWz3yo+S7JFMetYuPEDGxUxSCmCAFM3q9qfIxh093LyO70RhJrTdUMYQLkyny1LAr26TKj8XfwE+6cqp7RvjHPjnwEJh5o2dFNlJM2zd0GUDqcW5mHzSvNBeFa/NDfJnLMGuCq4V2pxbXXwTSjLp9hA1y9ndkg7UzO161FfQQqy/t6LIuSRncTuscjsZjAZBsTKYMVRejZTXYiCylKP9TtRhrQGnoY/g982UE=</l7:StringValue>
+                        </l7:Property>
+                    </l7:Properties>
+                </l7:PrivateKey>
+            </l7:Resource>
+        </l7:Item>
+        <l7:Item>
+            <l7:Name>microservice</l7:Name>
+            <l7:Id>20a4f47c9384d03d1a0c18fd7f1acff8</l7:Id>
+            <l7:Type>SERVICE</l7:Type>
+            <l7:TimeStamp>2016-08-10T14:04:22.178Z</l7:TimeStamp>
+            <l7:Resource>
+                <l7:Service id="20a4f47c9384d03d1a0c18fd7f1acff8" version="2">
+                    <l7:ServiceDetail folderId="0000000000000000ffffffffffffec76" id="20a4f47c9384d03d1a0c18fd7f1acff8" version="2">
+                        <l7:Name>microservice</l7:Name>
+                        <l7:Enabled>true</l7:Enabled>
+                        <l7:ServiceMappings>
+                            <l7:HttpMapping>
+                                <l7:UrlPattern>/*</l7:UrlPattern>
+                                <l7:Verbs>
+                                    <l7:Verb>GET</l7:Verb>
+                                    <l7:Verb>POST</l7:Verb>
+                                    <l7:Verb>PUT</l7:Verb>
+                                    <l7:Verb>DELETE</l7:Verb>
+                                </l7:Verbs>
+                            </l7:HttpMapping>
+                        </l7:ServiceMappings>
+                        <l7:Properties>
+                            <l7:Property key="internal">
+                                <l7:BooleanValue>false</l7:BooleanValue>
+                            </l7:Property>
+                            <l7:Property key="policyRevision">
+                                <l7:LongValue>2</l7:LongValue>
+                            </l7:Property>
+                            <l7:Property key="soap">
+                                <l7:BooleanValue>false</l7:BooleanValue>
+                            </l7:Property>
+                            <l7:Property key="tracingEnabled">
+                                <l7:BooleanValue>false</l7:BooleanValue>
+                            </l7:Property>
+                            <l7:Property key="wssProcessingEnabled">
+                                <l7:BooleanValue>false</l7:BooleanValue>
+                            </l7:Property>
+                        </l7:Properties>
+                    </l7:ServiceDetail>
+                    <l7:Resources>
+                        <l7:ResourceSet tag="policy">
+                            <l7:Resource type="policy" version="1">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;wsp:Policy xmlns:L7p="http://www.layer7tech.com/ws/policy" xmlns:wsp="http://schemas.xmlsoap.org/ws/2002/12/policy"&gt;
+    &lt;wsp:All wsp:Usage="Required"&gt;
+        &lt;L7p:AuditAssertion/&gt;
+        &lt;L7p:CommentAssertion&gt;
+            &lt;L7p:Comment stringValue="############################################################################################"/&gt;
+        &lt;/L7p:CommentAssertion&gt;
+        &lt;L7p:CommentAssertion&gt;
+            &lt;L7p:Comment stringValue="############################################################################################"/&gt;
+        &lt;/L7p:CommentAssertion&gt;
+        &lt;L7p:CommentAssertion&gt;
+            &lt;L7p:Comment stringValue="##  "/&gt;
+        &lt;/L7p:CommentAssertion&gt;
+        &lt;L7p:CommentAssertion&gt;
+            &lt;L7p:Comment stringValue="## Eureka http://GATEWAY:8761/eureka/apps"/&gt;
+        &lt;/L7p:CommentAssertion&gt;
+        &lt;L7p:CommentAssertion&gt;
+            &lt;L7p:Comment stringValue="##  Policy http://GATEWAY:8080/*"/&gt;
+        &lt;/L7p:CommentAssertion&gt;
+        &lt;L7p:CommentAssertion&gt;
+            &lt;L7p:Comment stringValue="##  v1.0 Darrin Solomon"/&gt;
+        &lt;/L7p:CommentAssertion&gt;
+        &lt;L7p:CommentAssertion&gt;
+            &lt;L7p:Comment stringValue="##  "/&gt;
+        &lt;/L7p:CommentAssertion&gt;
+        &lt;L7p:CommentAssertion&gt;
+            &lt;L7p:Comment stringValue="############################################################################################"/&gt;
+        &lt;/L7p:CommentAssertion&gt;
+        &lt;L7p:CommentAssertion&gt;
+            &lt;L7p:Comment stringValue="############################################################################################"/&gt;
+        &lt;/L7p:CommentAssertion&gt;
+        &lt;L7p:CustomizeErrorResponse&gt;
+            &lt;L7p:Content stringValue="Internal Server Error - Quota Exceeded"/&gt;
+            &lt;L7p:ExtraHeaders nameValuePairArray="included"/&gt;
+        &lt;/L7p:CustomizeErrorResponse&gt;
+        &lt;L7p:ThroughputQuota&gt;
+            &lt;L7p:CounterName stringValue="PRESET(174f8ce4369df67c)"/&gt;
+            &lt;L7p:Global booleanValue="true"/&gt;
+            &lt;L7p:Quota stringValue="100"/&gt;
+            &lt;L7p:Synchronous booleanValue="false"/&gt;
+            &lt;L7p:TimeUnit intValue="2"/&gt;
+            &lt;L7p:VariablePrefix stringValue="quota"/&gt;
+        &lt;/L7p:ThroughputQuota&gt;
+        &lt;wsp:OneOrMore wsp:Usage="Required"&gt;
+            &lt;wsp:All wsp:Usage="Required"&gt;
+                &lt;L7p:ComparisonAssertion&gt;
+                    &lt;L7p:Expression1 stringValue="${request.http.header.action}"/&gt;
+                    &lt;L7p:Expression2 stringValue="orchestrate"/&gt;
+                    &lt;L7p:Predicates predicates="included"&gt;
+                        &lt;L7p:item binary="included"&gt;
+                            &lt;L7p:RightValue stringValue="orchestrate"/&gt;
+                        &lt;/L7p:item&gt;
+                    &lt;/L7p:Predicates&gt;
+                &lt;/L7p:ComparisonAssertion&gt;
+                &lt;L7p:HttpRoutingAssertion&gt;
+                    &lt;L7p:ProtectedServiceUrl stringValue="http://172.16.160.129:8761/eureka/apps"/&gt;
+                    &lt;L7p:ProxyPassword stringValueNull="null"/&gt;
+                    &lt;L7p:ProxyUsername stringValueNull="null"/&gt;
+                    &lt;L7p:RequestHeaderRules httpPassthroughRuleSet="included"&gt;
+                        &lt;L7p:ForwardAll booleanValue="true"/&gt;
+                        &lt;L7p:Rules httpPassthroughRules="included"&gt;
+                            &lt;L7p:item httpPassthroughRule="included"&gt;
+                                &lt;L7p:Name stringValue="Cookie"/&gt;
+                            &lt;/L7p:item&gt;
+                            &lt;L7p:item httpPassthroughRule="included"&gt;
+                                &lt;L7p:Name stringValue="SOAPAction"/&gt;
+                            &lt;/L7p:item&gt;
+                        &lt;/L7p:Rules&gt;
+                    &lt;/L7p:RequestHeaderRules&gt;
+                    &lt;L7p:RequestParamRules httpPassthroughRuleSet="included"&gt;
+                        &lt;L7p:ForwardAll booleanValue="true"/&gt;
+                        &lt;L7p:Rules httpPassthroughRules="included"/&gt;
+                    &lt;/L7p:RequestParamRules&gt;
+                    &lt;L7p:ResponseHeaderRules httpPassthroughRuleSet="included"&gt;
+                        &lt;L7p:ForwardAll booleanValue="true"/&gt;
+                        &lt;L7p:Rules httpPassthroughRules="included"&gt;
+                            &lt;L7p:item httpPassthroughRule="included"&gt;
+                                &lt;L7p:Name stringValue="Set-Cookie"/&gt;
+                            &lt;/L7p:item&gt;
+                        &lt;/L7p:Rules&gt;
+                    &lt;/L7p:ResponseHeaderRules&gt;
+                    &lt;L7p:SamlAssertionVersion intValue="2"/&gt;
+                &lt;/L7p:HttpRoutingAssertion&gt;
+                &lt;L7p:ResponseXpathAssertion&gt;
+                    &lt;L7p:VariablePrefix stringValue="ipUsers"/&gt;
+                    &lt;L7p:XpathExpression xpathExpressionValue="included"&gt;
+                        &lt;L7p:Expression stringValue="/applications/application/instance[app='USERS' and status='UP']/ipAddr"/&gt;
+                        &lt;L7p:Namespaces mapValue="included"&gt;
+                            &lt;L7p:entry&gt;
+                                &lt;L7p:key stringValue="s"/&gt;
+                                &lt;L7p:value stringValue="http://schemas.xmlsoap.org/soap/envelope/"/&gt;
+                            &lt;/L7p:entry&gt;
+                        &lt;/L7p:Namespaces&gt;
+                        &lt;L7p:XpathVersion xpathVersion="XPATH_1_0"/&gt;
+                    &lt;/L7p:XpathExpression&gt;
+                &lt;/L7p:ResponseXpathAssertion&gt;
+                &lt;L7p:ResponseXpathAssertion&gt;
+                    &lt;L7p:VariablePrefix stringValue="ipOrderDetails"/&gt;
+                    &lt;L7p:XpathExpression xpathExpressionValue="included"&gt;
+                        &lt;L7p:Expression stringValue="/applications/application/instance[app='ORDERDETAILS' and status='UP']/ipAddr"/&gt;
+                        &lt;L7p:Namespaces mapValue="included"&gt;
+                            &lt;L7p:entry&gt;
+                                &lt;L7p:key stringValue="s"/&gt;
+                                &lt;L7p:value stringValue="http://schemas.xmlsoap.org/soap/envelope/"/&gt;
+                            &lt;/L7p:entry&gt;
+                        &lt;/L7p:Namespaces&gt;
+                        &lt;L7p:XpathVersion xpathVersion="XPATH_1_0"/&gt;
+                    &lt;/L7p:XpathExpression&gt;
+                &lt;/L7p:ResponseXpathAssertion&gt;
+                &lt;L7p:SetVariable&gt;
+                    &lt;L7p:Base64Expression stringValue="JHtpcFVzZXJzLnJlc3VsdH0="/&gt;
+                    &lt;L7p:VariableToSet stringValue="ipUsers"/&gt;
+                &lt;/L7p:SetVariable&gt;
+                &lt;L7p:SetVariable&gt;
+                    &lt;L7p:Base64Expression stringValue="JHtpcE9yZGVyRGV0YWlscy5yZXN1bHR9"/&gt;
+                    &lt;L7p:VariableToSet stringValue="ipOrderDetails"/&gt;
+                &lt;/L7p:SetVariable&gt;
+                &lt;L7p:HttpRoutingAssertion&gt;
+                    &lt;L7p:ProtectedServiceUrl stringValue="http://${ipUsers}:8080"/&gt;
+                    &lt;L7p:ProxyPassword stringValueNull="null"/&gt;
+                    &lt;L7p:ProxyUsername stringValueNull="null"/&gt;
+                    &lt;L7p:RequestHeaderRules httpPassthroughRuleSet="included"&gt;
+                        &lt;L7p:ForwardAll booleanValue="true"/&gt;
+                        &lt;L7p:Rules httpPassthroughRules="included"&gt;
+                            &lt;L7p:item httpPassthroughRule="included"&gt;
+                                &lt;L7p:Name stringValue="Cookie"/&gt;
+                            &lt;/L7p:item&gt;
+                            &lt;L7p:item httpPassthroughRule="included"&gt;
+                                &lt;L7p:Name stringValue="SOAPAction"/&gt;
+                            &lt;/L7p:item&gt;
+                        &lt;/L7p:Rules&gt;
+                    &lt;/L7p:RequestHeaderRules&gt;
+                    &lt;L7p:RequestParamRules httpPassthroughRuleSet="included"&gt;
+                        &lt;L7p:ForwardAll booleanValue="true"/&gt;
+                        &lt;L7p:Rules httpPassthroughRules="included"/&gt;
+                    &lt;/L7p:RequestParamRules&gt;
+                    &lt;L7p:ResponseHeaderRules httpPassthroughRuleSet="included"&gt;
+                        &lt;L7p:ForwardAll booleanValue="true"/&gt;
+                        &lt;L7p:Rules httpPassthroughRules="included"&gt;
+                            &lt;L7p:item httpPassthroughRule="included"&gt;
+                                &lt;L7p:Name stringValue="Set-Cookie"/&gt;
+                            &lt;/L7p:item&gt;
+                        &lt;/L7p:Rules&gt;
+                    &lt;/L7p:ResponseHeaderRules&gt;
+                    &lt;L7p:ResponseMsgDest stringValue="httpResponse1"/&gt;
+                    &lt;L7p:SamlAssertionVersion intValue="2"/&gt;
+                &lt;/L7p:HttpRoutingAssertion&gt;
+                &lt;L7p:HttpRoutingAssertion&gt;
+                    &lt;L7p:ProtectedServiceUrl stringValue="http://${ipOrderDetails}:8080"/&gt;
+                    &lt;L7p:ProxyPassword stringValueNull="null"/&gt;
+                    &lt;L7p:ProxyUsername stringValueNull="null"/&gt;
+                    &lt;L7p:RequestHeaderRules httpPassthroughRuleSet="included"&gt;
+                        &lt;L7p:ForwardAll booleanValue="true"/&gt;
+                        &lt;L7p:Rules httpPassthroughRules="included"&gt;
+                            &lt;L7p:item httpPassthroughRule="included"&gt;
+                                &lt;L7p:Name stringValue="Cookie"/&gt;
+                            &lt;/L7p:item&gt;
+                            &lt;L7p:item httpPassthroughRule="included"&gt;
+                                &lt;L7p:Name stringValue="SOAPAction"/&gt;
+                            &lt;/L7p:item&gt;
+                        &lt;/L7p:Rules&gt;
+                    &lt;/L7p:RequestHeaderRules&gt;
+                    &lt;L7p:RequestParamRules httpPassthroughRuleSet="included"&gt;
+                        &lt;L7p:ForwardAll booleanValue="true"/&gt;
+                        &lt;L7p:Rules httpPassthroughRules="included"/&gt;
+                    &lt;/L7p:RequestParamRules&gt;
+                    &lt;L7p:ResponseHeaderRules httpPassthroughRuleSet="included"&gt;
+                        &lt;L7p:ForwardAll booleanValue="true"/&gt;
+                        &lt;L7p:Rules httpPassthroughRules="included"&gt;
+                            &lt;L7p:item httpPassthroughRule="included"&gt;
+                                &lt;L7p:Name stringValue="Set-Cookie"/&gt;
+                            &lt;/L7p:item&gt;
+                        &lt;/L7p:Rules&gt;
+                    &lt;/L7p:ResponseHeaderRules&gt;
+                    &lt;L7p:ResponseMsgDest stringValue="httpResponse2"/&gt;
+                    &lt;L7p:SamlAssertionVersion intValue="2"/&gt;
+                &lt;/L7p:HttpRoutingAssertion&gt;
+                &lt;L7p:SetVariable&gt;
+                    &lt;L7p:Base64Expression stringValue="PHJlc3BvbnNlMSB4bWxucz0idXJuOnJlc3BvbnNlMSI+DQoke2h0dHBSZXNwb25zZTEubWFpbnBhcnR9DQo8L3Jlc3BvbnNlMT4="/&gt;
+                    &lt;L7p:ContentType stringValue="text/xml; charset=utf-8"/&gt;
+                    &lt;L7p:DataType variableDataType="message"/&gt;
+                    &lt;L7p:VariableToSet stringValue="modifiedResponse1"/&gt;
+                &lt;/L7p:SetVariable&gt;
+                &lt;L7p:SetVariable&gt;
+                    &lt;L7p:Base64Expression stringValue="PHJlc3BvbnNlMiB4bWxucz0idXJuOnJlc3BvbnNlMiI+DQoke2h0dHBSZXNwb25zZTIubWFpbnBhcnR9DQo8L3Jlc3BvbnNlMj4="/&gt;
+                    &lt;L7p:ContentType stringValue="text/xml; charset=utf-8"/&gt;
+                    &lt;L7p:DataType variableDataType="message"/&gt;
+                    &lt;L7p:VariableToSet stringValue="modifiedResponse2"/&gt;
+                &lt;/L7p:SetVariable&gt;
+                &lt;L7p:SetVariable&gt;
+                    &lt;L7p:Base64Expression stringValue="PGM6Y29tYmluZWQgeG1sbnM6Yz0idXJuOmNvbWJpbmVkIj4NCiR7bW9kaWZpZWRSZXNwb25zZTEubWFpbnBhcnR9DQoke21vZGlmaWVkUmVzcG9uc2UyLm1haW5wYXJ0fQ0KPC9jOmNvbWJpbmVkPg=="/&gt;
+                    &lt;L7p:ContentType stringValue="text/xml; charset=utf-8"/&gt;
+                    &lt;L7p:DataType variableDataType="message"/&gt;
+                    &lt;L7p:VariableToSet stringValue="combinedXML"/&gt;
+                &lt;/L7p:SetVariable&gt;
+                &lt;L7p:XslTransformation&gt;
+                    &lt;L7p:Direction intValue="-1"/&gt;
+                    &lt;L7p:OtherTargetMessageVariable stringValue="combinedXML"/&gt;
+                    &lt;L7p:ResourceInfo staticResourceInfo="included"&gt;
+                        &lt;L7p:Document stringValueReference="inline"&gt;&lt;![CDATA[&lt;xsl:stylesheet version="2.0" xmlns:c="urn:combined" xmlns:r1="urn:response1" xmlns:r2="urn:response2" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"&gt;
+	&lt;xsl:template match="/"&gt;
+		&lt;c:root&gt;
+			&lt;xsl:for-each select="c:combined/r1:response1/r1:root/r1:Customer"&gt;
+				&lt;c:Customer&gt;
+				
+				
+					 &lt;xsl:variable name="email" select="r1:email/text()"/&gt;
+					 
+					&lt;c:email&gt;&lt;xsl:value-of select="r1:email"/&gt;&lt;/c:email&gt;
+					&lt;c:zip&gt;&lt;xsl:value-of select="r1:zip"/&gt;&lt;/c:zip&gt;
+					   
+					
+					&lt;xsl:for-each select="//r2:Customer[r2:email=$email]"&gt;
+					&lt;c:book2order&gt;&lt;xsl:value-of select="r2:boughtBook"/&gt;&lt;/c:book2order&gt;
+					&lt;/xsl:for-each&gt;
+				&lt;/c:Customer&gt;
+			&lt;/xsl:for-each&gt;
+		&lt;/c:root&gt;			
+	&lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;]]&gt;&lt;/L7p:Document&gt;
+                    &lt;/L7p:ResourceInfo&gt;
+                    &lt;L7p:Target target="OTHER"/&gt;
+                    &lt;L7p:TransformName stringValue=""/&gt;
+                    &lt;L7p:XsltVersion stringValue="1.0"/&gt;
+                &lt;/L7p:XslTransformation&gt;
+                &lt;L7p:SetVariable&gt;
+                    &lt;L7p:Base64Expression stringValue="JHtjb21iaW5lZFhNTC5tYWlucGFydH0="/&gt;
+                    &lt;L7p:ContentType stringValue="text/xml; charset=utf-8"/&gt;
+                    &lt;L7p:DataType variableDataType="message"/&gt;
+                    &lt;L7p:VariableToSet stringValue="xmlMainPart"/&gt;
+                &lt;/L7p:SetVariable&gt;
+                &lt;L7p:ResponseXpathAssertion&gt;
+                    &lt;L7p:VariablePrefix stringValue=""/&gt;
+                    &lt;L7p:XmlMsgSrc stringValue="xmlMainPart"/&gt;
+                    &lt;L7p:XpathExpression xpathExpressionValue="included"&gt;
+                        &lt;L7p:Expression stringValue="/c:root/c:Customer"/&gt;
+                        &lt;L7p:Namespaces mapValue="included"&gt;
+                            &lt;L7p:entry&gt;
+                                &lt;L7p:key stringValue="r2"/&gt;
+                                &lt;L7p:value stringValue="urn:response2"/&gt;
+                            &lt;/L7p:entry&gt;
+                            &lt;L7p:entry&gt;
+                                &lt;L7p:key stringValue="s"/&gt;
+                                &lt;L7p:value stringValue="http://schemas.xmlsoap.org/soap/envelope/"/&gt;
+                            &lt;/L7p:entry&gt;
+                            &lt;L7p:entry&gt;
+                                &lt;L7p:key stringValue="c"/&gt;
+                                &lt;L7p:value stringValue="urn:combined"/&gt;
+                            &lt;/L7p:entry&gt;
+                            &lt;L7p:entry&gt;
+                                &lt;L7p:key stringValue="r1"/&gt;
+                                &lt;L7p:value stringValue="urn:response1"/&gt;
+                            &lt;/L7p:entry&gt;
+                        &lt;/L7p:Namespaces&gt;
+                        &lt;L7p:XpathVersion xpathVersion="XPATH_1_0"/&gt;
+                    &lt;/L7p:XpathExpression&gt;
+                &lt;/L7p:ResponseXpathAssertion&gt;
+                &lt;L7p:SetVariable&gt;
+                    &lt;L7p:Base64Expression stringValue="JHtyZXNwb25zZVhwYXRoLmVsZW1lbnRzfQ=="/&gt;
+                    &lt;L7p:ContentType stringValue="text/xml; charset=utf-8"/&gt;
+                    &lt;L7p:DataType variableDataType="message"/&gt;
+                    &lt;L7p:VariableToSet stringValue="output"/&gt;
+                &lt;/L7p:SetVariable&gt;
+                &lt;L7p:Regex&gt;
+                    &lt;L7p:AutoTarget booleanValue="false"/&gt;
+                    &lt;L7p:IncludeEntireExpressionCapture booleanValue="false"/&gt;
+                    &lt;L7p:OtherTargetMessageVariable stringValue="output"/&gt;
+                    &lt;L7p:Regex stringValue="c:"/&gt;
+                    &lt;L7p:RegexName stringValue="remove c:"/&gt;
+                    &lt;L7p:Replace booleanValue="true"/&gt;
+                    &lt;L7p:ReplaceRepeatCount intValue="500"/&gt;
+                    &lt;L7p:Replacement stringValue=""/&gt;
+                    &lt;L7p:Target target="OTHER"/&gt;
+                &lt;/L7p:Regex&gt;
+                &lt;L7p:JsonTransformation&gt;
+                    &lt;L7p:DestinationMessageTarget MessageTarget="included"&gt;
+                        &lt;L7p:OtherTargetMessageVariable stringValue="output"/&gt;
+                        &lt;L7p:Target target="OTHER"/&gt;
+                        &lt;L7p:TargetModifiedByGateway booleanValue="true"/&gt;
+                    &lt;/L7p:DestinationMessageTarget&gt;
+                    &lt;L7p:OtherTargetMessageVariable stringValue="output"/&gt;
+                    &lt;L7p:RootTagString stringValue=""/&gt;
+                    &lt;L7p:Target target="OTHER"/&gt;
+                &lt;/L7p:JsonTransformation&gt;
+                &lt;L7p:Regex&gt;
+                    &lt;L7p:AutoTarget booleanValue="false"/&gt;
+                    &lt;L7p:IncludeEntireExpressionCapture booleanValue="false"/&gt;
+                    &lt;L7p:OtherTargetMessageVariable stringValue="output"/&gt;
+                    &lt;L7p:Regex stringValue="\{&amp;quot;Customer&amp;quot;:"/&gt;
+                    &lt;L7p:RegexName stringValue="remove customer"/&gt;
+                    &lt;L7p:Replace booleanValue="true"/&gt;
+                    &lt;L7p:ReplaceRepeatCount intValue="500"/&gt;
+                    &lt;L7p:Replacement stringValue="["/&gt;
+                    &lt;L7p:Target target="OTHER"/&gt;
+                &lt;/L7p:Regex&gt;
+                &lt;L7p:Regex&gt;
+                    &lt;L7p:AutoTarget booleanValue="false"/&gt;
+                    &lt;L7p:IncludeEntireExpressionCapture booleanValue="false"/&gt;
+                    &lt;L7p:OtherTargetMessageVariable stringValue="output"/&gt;
+                    &lt;L7p:Regex stringValue="]\}"/&gt;
+                    &lt;L7p:RegexName stringValue="remove }"/&gt;
+                    &lt;L7p:Replace booleanValue="true"/&gt;
+                    &lt;L7p:ReplaceRepeatCount intValue="500"/&gt;
+                    &lt;L7p:Replacement stringValue="]"/&gt;
+                    &lt;L7p:Target target="OTHER"/&gt;
+                &lt;/L7p:Regex&gt;
+                &lt;L7p:Regex&gt;
+                    &lt;L7p:AutoTarget booleanValue="false"/&gt;
+                    &lt;L7p:IncludeEntireExpressionCapture booleanValue="false"/&gt;
+                    &lt;L7p:OtherTargetMessageVariable stringValue="output"/&gt;
+                    &lt;L7p:Regex stringValue="\[\["/&gt;
+                    &lt;L7p:RegexName stringValue="remove [["/&gt;
+                    &lt;L7p:Replace booleanValue="true"/&gt;
+                    &lt;L7p:ReplaceRepeatCount intValue="500"/&gt;
+                    &lt;L7p:Replacement stringValue="["/&gt;
+                    &lt;L7p:Target target="OTHER"/&gt;
+                &lt;/L7p:Regex&gt;
+                &lt;L7p:HttpRoutingAssertion&gt;
+                    &lt;L7p:FailOnErrorStatus booleanValue="false"/&gt;
+                    &lt;L7p:HttpMethod httpMethod="POST"/&gt;
+                    &lt;L7p:ProtectedServiceUrl stringValue="http://172.16.160.129:9090/rest/default/wdtgp/v1/shipping?auth=eSAkN2fsAANMFX0B1OJc:1"/&gt;
+                    &lt;L7p:ProxyPassword stringValueNull="null"/&gt;
+                    &lt;L7p:ProxyUsername stringValueNull="null"/&gt;
+                    &lt;L7p:RequestHeaderRules httpPassthroughRuleSet="included"&gt;
+                        &lt;L7p:ForwardAll booleanValue="true"/&gt;
+                        &lt;L7p:Rules httpPassthroughRules="included"&gt;
+                            &lt;L7p:item httpPassthroughRule="included"&gt;
+                                &lt;L7p:Name stringValue="Cookie"/&gt;
+                            &lt;/L7p:item&gt;
+                            &lt;L7p:item httpPassthroughRule="included"&gt;
+                                &lt;L7p:Name stringValue="SOAPAction"/&gt;
+                            &lt;/L7p:item&gt;
+                        &lt;/L7p:Rules&gt;
+                    &lt;/L7p:RequestHeaderRules&gt;
+                    &lt;L7p:RequestMsgSrc stringValue="output"/&gt;
+                    &lt;L7p:RequestParamRules httpPassthroughRuleSet="included"&gt;
+                        &lt;L7p:ForwardAll booleanValue="true"/&gt;
+                        &lt;L7p:Rules httpPassthroughRules="included"/&gt;
+                    &lt;/L7p:RequestParamRules&gt;
+                    &lt;L7p:ResponseHeaderRules httpPassthroughRuleSet="included"&gt;
+                        &lt;L7p:ForwardAll booleanValue="true"/&gt;
+                        &lt;L7p:Rules httpPassthroughRules="included"&gt;
+                            &lt;L7p:item httpPassthroughRule="included"&gt;
+                                &lt;L7p:Name stringValue="Set-Cookie"/&gt;
+                            &lt;/L7p:item&gt;
+                        &lt;/L7p:Rules&gt;
+                    &lt;/L7p:ResponseHeaderRules&gt;
+                    &lt;L7p:SamlAssertionVersion intValue="2"/&gt;
+                &lt;/L7p:HttpRoutingAssertion&gt;
+                &lt;L7p:HardcodedResponse&gt;
+                    &lt;L7p:Base64ResponseBody stringValue="JHtyZXNwb25zZS5tYWlucGFydH0KCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgpNSUNST1NFUlZJQ0VTIE9SQ0hFU1RSQVRJT04gQ09NUExFVEVECgoke3Jlc3BvbnNlWHBhdGguY291bnR9IG9iamVjdHMgYWRkZWQgdG8gZGF0YXNvdXJjZQoKLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0="/&gt;
+                    &lt;L7p:ResponseContentType stringValue="application/json; charset=UTF-8"/&gt;
+                &lt;/L7p:HardcodedResponse&gt;
+                &lt;L7p:assertionComment&gt;
+                    &lt;L7p:Properties mapValue="included"&gt;
+                        &lt;L7p:entry&gt;
+                            &lt;L7p:key stringValue="LEFT.COMMENT"/&gt;
+                            &lt;L7p:value stringValue="SCENERIO ORCHESTRATE"/&gt;
+                        &lt;/L7p:entry&gt;
+                    &lt;/L7p:Properties&gt;
+                &lt;/L7p:assertionComment&gt;
+            &lt;/wsp:All&gt;
+            &lt;wsp:All wsp:Usage="Required"&gt;
+                &lt;L7p:ComparisonAssertion&gt;
+                    &lt;L7p:Expression1 stringValue="${request.http.header.action}"/&gt;
+                    &lt;L7p:Expression2 stringValue="hello"/&gt;
+                    &lt;L7p:Predicates predicates="included"&gt;
+                        &lt;L7p:item binary="included"&gt;
+                            &lt;L7p:RightValue stringValue="hello"/&gt;
+                        &lt;/L7p:item&gt;
+                    &lt;/L7p:Predicates&gt;
+                &lt;/L7p:ComparisonAssertion&gt;
+                &lt;L7p:HttpRoutingAssertion&gt;
+                    &lt;L7p:ProtectedServiceUrl stringValue="http://172.16.160.129:8761/eureka/apps"/&gt;
+                    &lt;L7p:ProxyPassword stringValueNull="null"/&gt;
+                    &lt;L7p:ProxyUsername stringValueNull="null"/&gt;
+                    &lt;L7p:RequestHeaderRules httpPassthroughRuleSet="included"&gt;
+                        &lt;L7p:ForwardAll booleanValue="true"/&gt;
+                        &lt;L7p:Rules httpPassthroughRules="included"&gt;
+                            &lt;L7p:item httpPassthroughRule="included"&gt;
+                                &lt;L7p:Name stringValue="Cookie"/&gt;
+                            &lt;/L7p:item&gt;
+                            &lt;L7p:item httpPassthroughRule="included"&gt;
+                                &lt;L7p:Name stringValue="SOAPAction"/&gt;
+                            &lt;/L7p:item&gt;
+                        &lt;/L7p:Rules&gt;
+                    &lt;/L7p:RequestHeaderRules&gt;
+                    &lt;L7p:RequestParamRules httpPassthroughRuleSet="included"&gt;
+                        &lt;L7p:ForwardAll booleanValue="true"/&gt;
+                        &lt;L7p:Rules httpPassthroughRules="included"/&gt;
+                    &lt;/L7p:RequestParamRules&gt;
+                    &lt;L7p:ResponseHeaderRules httpPassthroughRuleSet="included"&gt;
+                        &lt;L7p:ForwardAll booleanValue="true"/&gt;
+                        &lt;L7p:Rules httpPassthroughRules="included"&gt;
+                            &lt;L7p:item httpPassthroughRule="included"&gt;
+                                &lt;L7p:Name stringValue="Set-Cookie"/&gt;
+                            &lt;/L7p:item&gt;
+                        &lt;/L7p:Rules&gt;
+                    &lt;/L7p:ResponseHeaderRules&gt;
+                    &lt;L7p:SamlAssertionVersion intValue="2"/&gt;
+                &lt;/L7p:HttpRoutingAssertion&gt;
+                &lt;L7p:ResponseXpathAssertion&gt;
+                    &lt;L7p:VariablePrefix stringValue="ipAddr"/&gt;
+                    &lt;L7p:XpathExpression xpathExpressionValue="included"&gt;
+                        &lt;L7p:Expression stringValue="/applications/application/instance[app='HELLO' and status='UP']/ipAddr"/&gt;
+                        &lt;L7p:Namespaces mapValue="included"&gt;
+                            &lt;L7p:entry&gt;
+                                &lt;L7p:key stringValue="s"/&gt;
+                                &lt;L7p:value stringValue="http://schemas.xmlsoap.org/soap/envelope/"/&gt;
+                            &lt;/L7p:entry&gt;
+                        &lt;/L7p:Namespaces&gt;
+                        &lt;L7p:XpathVersion xpathVersion="XPATH_1_0"/&gt;
+                    &lt;/L7p:XpathExpression&gt;
+                &lt;/L7p:ResponseXpathAssertion&gt;
+                &lt;L7p:SetVariable&gt;
+                    &lt;L7p:Base64Expression stringValue="JHtpcEFkZHIucmVzdWx0c30="/&gt;
+                    &lt;L7p:VariableToSet stringValue="ipAddr.results"/&gt;
+                &lt;/L7p:SetVariable&gt;
+                &lt;L7p:SetVariable&gt;
+                    &lt;L7p:Base64Expression stringValue="JHtpcEFkZHIucmVzdWx0c30="/&gt;
+                    &lt;L7p:VariableToSet stringValue="ipAddr.static"/&gt;
+                &lt;/L7p:SetVariable&gt;
+                &lt;L7p:SetVariable&gt;
+                    &lt;L7p:Base64Expression stringValue="JHtpcEFkZHIuY291bnR9"/&gt;
+                    &lt;L7p:VariableToSet stringValue="ipAddr.static.count"/&gt;
+                &lt;/L7p:SetVariable&gt;
+                &lt;L7p:Split&gt;
+                    &lt;L7p:InputVariable stringValue="ipAddr.results"/&gt;
+                    &lt;L7p:OutputVariable stringValue="ipAddr"/&gt;
+                    &lt;L7p:SplitPattern stringValue=", "/&gt;
+                &lt;/L7p:Split&gt;
+                &lt;L7p:CreateRoutingStrategy&gt;
+                    &lt;L7p:Routes routes="included"&gt;
+                        &lt;L7p:item route="included"&gt;
+                            &lt;L7p:Name stringValue="${ipAddr[0]}"/&gt;
+                        &lt;/L7p:item&gt;
+                        &lt;L7p:item route="included"&gt;
+                            &lt;L7p:Name stringValue="${ipAddr[1]}"/&gt;
+                        &lt;/L7p:item&gt;
+                        &lt;L7p:item route="included"&gt;
+                            &lt;L7p:Name stringValue="${ipAddr[2]}"/&gt;
+                        &lt;/L7p:item&gt;
+                        &lt;L7p:item route="included"&gt;
+                            &lt;L7p:Name stringValue="${ipAddr[3]}"/&gt;
+                        &lt;/L7p:item&gt;
+                    &lt;/L7p:Routes&gt;
+                    &lt;L7p:StrategyDescription stringValue="Round-Robin"/&gt;
+                    &lt;L7p:StrategyName stringValue="robin"/&gt;
+                &lt;/L7p:CreateRoutingStrategy&gt;
+                &lt;L7p:ForEachLoop L7p:Usage="Required"
+                    loopVariable="strategy.routeList" variablePrefix="routeList"&gt;
+                    &lt;L7p:SetVariable&gt;
+                        &lt;L7p:Base64Expression stringValue="MA=="/&gt;
+                        &lt;L7p:DataType variableDataType="int"/&gt;
+                        &lt;L7p:VariableToSet stringValue="feedback.current.status"/&gt;
+                    &lt;/L7p:SetVariable&gt;
+                    &lt;L7p:ExecuteRoutingStrategy/&gt;
+                    &lt;wsp:OneOrMore wsp:Usage="Required"&gt;
+                        &lt;wsp:All wsp:Usage="Required"&gt;
+                            &lt;L7p:HttpRoutingAssertion&gt;
+                                &lt;L7p:ConnectionTimeout stringValue="3000"/&gt;
+                                &lt;L7p:HttpMethod httpMethod="GET"/&gt;
+                                &lt;L7p:MaxRetries intValue="100"/&gt;
+                                &lt;L7p:ProtectedServiceUrl stringValue="http://${route}:8080/hosts/hello"/&gt;
+                                &lt;L7p:ProxyPassword stringValueNull="null"/&gt;
+                                &lt;L7p:ProxyUsername stringValueNull="null"/&gt;
+                                &lt;L7p:RequestHeaderRules httpPassthroughRuleSet="included"&gt;
+                                    &lt;L7p:ForwardAll booleanValue="true"/&gt;
+                                    &lt;L7p:Rules httpPassthroughRules="included"&gt;
+                                    &lt;L7p:item httpPassthroughRule="included"&gt;
+                                    &lt;L7p:Name stringValue="Cookie"/&gt;
+                                    &lt;/L7p:item&gt;
+                                    &lt;L7p:item httpPassthroughRule="included"&gt;
+                                    &lt;L7p:Name stringValue="SOAPAction"/&gt;
+                                    &lt;/L7p:item&gt;
+                                    &lt;/L7p:Rules&gt;
+                                &lt;/L7p:RequestHeaderRules&gt;
+                                &lt;L7p:RequestParamRules httpPassthroughRuleSet="included"&gt;
+                                    &lt;L7p:ForwardAll booleanValue="true"/&gt;
+                                    &lt;L7p:Rules httpPassthroughRules="included"/&gt;
+                                &lt;/L7p:RequestParamRules&gt;
+                                &lt;L7p:ResponseHeaderRules httpPassthroughRuleSet="included"&gt;
+                                    &lt;L7p:ForwardAll booleanValue="true"/&gt;
+                                    &lt;L7p:Rules httpPassthroughRules="included"&gt;
+                                    &lt;L7p:item httpPassthroughRule="included"&gt;
+                                    &lt;L7p:Name stringValue="Set-Cookie"/&gt;
+                                    &lt;/L7p:item&gt;
+                                    &lt;/L7p:Rules&gt;
+                                &lt;/L7p:ResponseHeaderRules&gt;
+                                &lt;L7p:SamlAssertionVersion intValue="2"/&gt;
+                            &lt;/L7p:HttpRoutingAssertion&gt;
+                            &lt;L7p:AuditDetailAssertion&gt;
+                                &lt;L7p:Detail stringValue="route: ${route}"/&gt;
+                            &lt;/L7p:AuditDetailAssertion&gt;
+                            &lt;L7p:HardcodedResponse&gt;
+                                &lt;L7p:Base64ResponseBody stringValue="QXZhaWwgUm91dGVzICR7aXBBZGRyLnN0YXRpYy5jb3VudH0gOiAke2lwQWRkci5zdGF0aWN9CQkJeyJyb3V0ZSI6ICIke3JvdXRlfSIsICJIVFRQIjogW1sibGF0ZW5jeSIsICIke3JlcXVlc3QuZWxhcHNlZFRpbWV9bXMiXSwgWyJyZWFzb25jb2RlIiwgIiR7aHR0cHJvdXRpbmcucmVhc29uQ29kZX0iXV19CSAJ"/&gt;
+                                &lt;L7p:ResponseContentType stringValue="text/plain; charset=UTF-8"/&gt;
+                            &lt;/L7p:HardcodedResponse&gt;
+                        &lt;/wsp:All&gt;
+                        &lt;L7p:SetVariable&gt;
+                            &lt;L7p:Base64Expression stringValue="LTE="/&gt;
+                            &lt;L7p:DataType variableDataType="int"/&gt;
+                            &lt;L7p:VariableToSet stringValue="feedback.current.status"/&gt;
+                        &lt;/L7p:SetVariable&gt;
+                    &lt;/wsp:OneOrMore&gt;
+                    &lt;L7p:SetVariable&gt;
+                        &lt;L7p:Base64Expression stringValue="JHthc3NlcnRpb24ubGF0ZW5jeS5tc30="/&gt;
+                        &lt;L7p:VariableToSet stringValue="feedback.current.latency"/&gt;
+                    &lt;/L7p:SetVariable&gt;
+                    &lt;L7p:SetVariable&gt;
+                        &lt;L7p:Base64Expression stringValue="JHtodHRwcm91dGluZy5yZWFzb25Db2RlfQ=="/&gt;
+                        &lt;L7p:VariableToSet stringValue="feedback.current.reasonCode"/&gt;
+                    &lt;/L7p:SetVariable&gt;
+                    &lt;wsp:OneOrMore wsp:Usage="Required"&gt;
+                        &lt;L7p:ComparisonAssertion&gt;
+                            &lt;L7p:CaseSensitive booleanValue="false"/&gt;
+                            &lt;L7p:Expression1 stringValue="${feedback.current.status}"/&gt;
+                            &lt;L7p:Operator operatorNull="null"/&gt;
+                            &lt;L7p:Predicates predicates="included"&gt;
+                                &lt;L7p:item binary="included"&gt;
+                                    &lt;L7p:Negated booleanValue="true"/&gt;
+                                    &lt;L7p:Operator operator="EMPTY"/&gt;
+                                    &lt;L7p:RightValue stringValue=""/&gt;
+                                &lt;/L7p:item&gt;
+                                &lt;L7p:item binary="included"&gt;
+                                    &lt;L7p:RightValue stringValue="-1"/&gt;
+                                &lt;/L7p:item&gt;
+                            &lt;/L7p:Predicates&gt;
+                        &lt;/L7p:ComparisonAssertion&gt;
+                        &lt;L7p:SetVariable&gt;
+                            &lt;L7p:Base64Expression stringValue="dHJ1ZQ=="/&gt;
+                            &lt;L7p:VariableToSet stringValue="routeList.break"/&gt;
+                        &lt;/L7p:SetVariable&gt;
+                    &lt;/wsp:OneOrMore&gt;
+                &lt;/L7p:ForEachLoop&gt;
+                &lt;L7p:ProcessRoutingStrategyResult/&gt;
+                &lt;L7p:assertionComment&gt;
+                    &lt;L7p:Properties mapValue="included"&gt;
+                        &lt;L7p:entry&gt;
+                            &lt;L7p:key stringValue="LEFT.COMMENT"/&gt;
+                            &lt;L7p:value stringValue="SCENERIO DYNAMIC ROUTING"/&gt;
+                        &lt;/L7p:entry&gt;
+                    &lt;/L7p:Properties&gt;
+                &lt;/L7p:assertionComment&gt;
+            &lt;/wsp:All&gt;
+            &lt;wsp:All wsp:Usage="Required"&gt;
+                &lt;L7p:HardcodedResponse&gt;
+                    &lt;L7p:Base64ResponseBody stringValue="eyJlcnJvciIgOiA1MDMgLCAibXNnIiA6ICJubyBoZWFkZXIifQ=="/&gt;
+                    &lt;L7p:ResponseContentType stringValue="text/json; charset=UTF-8"/&gt;
+                &lt;/L7p:HardcodedResponse&gt;
+                &lt;L7p:assertionComment&gt;
+                    &lt;L7p:Properties mapValue="included"&gt;
+                        &lt;L7p:entry&gt;
+                            &lt;L7p:key stringValue="LEFT.COMMENT"/&gt;
+                            &lt;L7p:value stringValue="ERROR HANDLING"/&gt;
+                        &lt;/L7p:entry&gt;
+                    &lt;/L7p:Properties&gt;
+                &lt;/L7p:assertionComment&gt;
+            &lt;/wsp:All&gt;
+        &lt;/wsp:OneOrMore&gt;
+    &lt;/wsp:All&gt;
+&lt;/wsp:Policy&gt;
+</l7:Resource>
+                        </l7:ResourceSet>
+                    </l7:Resources>
+                </l7:Service>
+            </l7:Resource>
+        </l7:Item>
+    </l7:References>
+    <l7:Mappings>
+        <l7:Mapping action="NewOrExisting" srcId="00000000000000000000000000000002:SSL" srcUri="https://27491f5f2dd0:8443/restman/1.0/privateKeys/00000000000000000000000000000002:SSL" type="SSG_KEY_ENTRY"/>
+        <l7:Mapping action="NewOrExisting" srcId="0000000000000000ffffffffffffec76" srcUri="https://27491f5f2dd0:8443/restman/1.0/folders/0000000000000000ffffffffffffec76" type="FOLDER">
+            <l7:Properties>
+                <l7:Property key="FailOnNew">
+                    <l7:BooleanValue>true</l7:BooleanValue>
+                </l7:Property>
+            </l7:Properties>
+        </l7:Mapping>
+        <l7:Mapping action="NewOrExisting" srcId="20a4f47c9384d03d1a0c18fd7f1acff8" srcUri="https://27491f5f2dd0:8443/restman/1.0/services/20a4f47c9384d03d1a0c18fd7f1acff8" type="SERVICE"/>
+    </l7:Mappings>
+</l7:Bundle>

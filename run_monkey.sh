@@ -21,4 +21,8 @@ docker run \
         -p 9090:8080 \
         caliveapicreator/release
 cd docker
-docker-compose up
+docker-compose up -d
+cd ..
+read -p "Press [Enter] key to deploy policy..."
+cd ${PWD}/GMU
+./GatewayMigrationUtility.sh migrateIn -h ms.apim.ca -p 8443 -u pmadmin --plaintextPassword 7layer --trustCertificate --trustHostname --bundle BUNDLES/bundle_ms.xml --results OUT/results.xml
