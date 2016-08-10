@@ -120,3 +120,227 @@ Aug 10, 2016 1:03:18 PM com.ca.gateway.rest.commandline.command.GatewayCommand s
 WARNING: TLS server certificate check has been disabled
 Aug 10, 2016 1:03:18 PM com.ca.gateway.rest.commandline.command.Command runCommand
 INFO: Running Command: migrateIn
+Aug 10, 2016 1:53:02 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Aug 10, 2016 1:53:02 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Aug 10, 2016 1:53:02 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn
+Aug 10, 2016 1:53:05 PM com.ca.gateway.rest.commandline.command.Command runCommand
+WARNING: Error executing command
+javax.ws.rs.ProcessingException: Already connected
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:236)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:655)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:652)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:228)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:422)
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:652)
+	at com.ca.gateway.rest.api.GatewayManagementGatewayClient$IP10Bundle.putXml(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.BundleResource.importBundle(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.a(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.GatewayCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.Command.runCommand(Unknown Source)
+	at com.ca.gateway.rest.commandline.Main.main(Unknown Source)
+Caused by: java.lang.IllegalStateException: Already connected
+	at sun.net.www.protocol.http.HttpURLConnection.setRequestProperty(HttpURLConnection.java:3014)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.setRequestProperty(HttpsURLConnectionImpl.java:316)
+	at org.glassfish.jersey.client.HttpUrlConnector.setOutboundHeaders(HttpUrlConnector.java:292)
+	at org.glassfish.jersey.client.HttpUrlConnector.access$100(HttpUrlConnector.java:83)
+	at org.glassfish.jersey.client.HttpUrlConnector$3.getOutputStream(HttpUrlConnector.java:266)
+	at org.glassfish.jersey.message.internal.CommittingOutputStream.commitStream(CommittingOutputStream.java:200)
+	at org.glassfish.jersey.message.internal.CommittingOutputStream.commitStream(CommittingOutputStream.java:194)
+	at org.glassfish.jersey.message.internal.CommittingOutputStream.commit(CommittingOutputStream.java:262)
+	at org.glassfish.jersey.message.internal.OutboundMessageContext.commitStream(OutboundMessageContext.java:812)
+	at org.glassfish.jersey.client.ClientRequest.writeEntity(ClientRequest.java:526)
+	at org.glassfish.jersey.client.HttpUrlConnector._apply(HttpUrlConnector.java:270)
+	at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:182)
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:227)
+	... 14 more
+
+Aug 10, 2016 1:56:22 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Aug 10, 2016 1:56:22 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Aug 10, 2016 1:56:22 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn
+Aug 10, 2016 1:56:25 PM com.ca.gateway.rest.commandline.command.Command runCommand
+WARNING: Error executing command
+javax.ws.rs.ProcessingException: Already connected
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:236)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:655)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:652)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:228)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:422)
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:652)
+	at com.ca.gateway.rest.api.GatewayManagementGatewayClient$IP10Bundle.putXml(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.BundleResource.importBundle(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.a(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.GatewayCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.Command.runCommand(Unknown Source)
+	at com.ca.gateway.rest.commandline.Main.main(Unknown Source)
+Caused by: java.lang.IllegalStateException: Already connected
+	at sun.net.www.protocol.http.HttpURLConnection.setRequestProperty(HttpURLConnection.java:3014)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.setRequestProperty(HttpsURLConnectionImpl.java:316)
+	at org.glassfish.jersey.client.HttpUrlConnector.setOutboundHeaders(HttpUrlConnector.java:292)
+	at org.glassfish.jersey.client.HttpUrlConnector.access$100(HttpUrlConnector.java:83)
+	at org.glassfish.jersey.client.HttpUrlConnector$3.getOutputStream(HttpUrlConnector.java:266)
+	at org.glassfish.jersey.message.internal.CommittingOutputStream.commitStream(CommittingOutputStream.java:200)
+	at org.glassfish.jersey.message.internal.CommittingOutputStream.commitStream(CommittingOutputStream.java:194)
+	at org.glassfish.jersey.message.internal.CommittingOutputStream.commit(CommittingOutputStream.java:262)
+	at org.glassfish.jersey.message.internal.OutboundMessageContext.commitStream(OutboundMessageContext.java:812)
+	at org.glassfish.jersey.client.ClientRequest.writeEntity(ClientRequest.java:526)
+	at org.glassfish.jersey.client.HttpUrlConnector._apply(HttpUrlConnector.java:270)
+	at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:182)
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:227)
+	... 14 more
+
+Aug 10, 2016 1:59:12 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Aug 10, 2016 1:59:12 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Aug 10, 2016 1:59:12 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn
+Aug 10, 2016 2:06:11 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Aug 10, 2016 2:06:11 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Aug 10, 2016 2:06:11 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn
+Aug 10, 2016 2:06:14 PM com.ca.gateway.rest.commandline.command.Command runCommand
+WARNING: Error executing command
+javax.ws.rs.ProcessingException: Already connected
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:236)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:655)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:652)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:228)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:422)
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:652)
+	at com.ca.gateway.rest.api.GatewayManagementGatewayClient$IP10Bundle.putXml(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.BundleResource.importBundle(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.a(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.GatewayCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.Command.runCommand(Unknown Source)
+	at com.ca.gateway.rest.commandline.Main.main(Unknown Source)
+Caused by: java.lang.IllegalStateException: Already connected
+	at sun.net.www.protocol.http.HttpURLConnection.setRequestProperty(HttpURLConnection.java:3014)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.setRequestProperty(HttpsURLConnectionImpl.java:316)
+	at org.glassfish.jersey.client.HttpUrlConnector.setOutboundHeaders(HttpUrlConnector.java:292)
+	at org.glassfish.jersey.client.HttpUrlConnector.access$100(HttpUrlConnector.java:83)
+	at org.glassfish.jersey.client.HttpUrlConnector$3.getOutputStream(HttpUrlConnector.java:266)
+	at org.glassfish.jersey.message.internal.CommittingOutputStream.commitStream(CommittingOutputStream.java:200)
+	at org.glassfish.jersey.message.internal.CommittingOutputStream.commitStream(CommittingOutputStream.java:194)
+	at org.glassfish.jersey.message.internal.CommittingOutputStream.commit(CommittingOutputStream.java:262)
+	at org.glassfish.jersey.message.internal.OutboundMessageContext.commitStream(OutboundMessageContext.java:812)
+	at org.glassfish.jersey.client.ClientRequest.writeEntity(ClientRequest.java:526)
+	at org.glassfish.jersey.client.HttpUrlConnector._apply(HttpUrlConnector.java:270)
+	at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:182)
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:227)
+	... 14 more
+
+Aug 10, 2016 2:19:50 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Aug 10, 2016 2:19:50 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Aug 10, 2016 2:19:50 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn
+Aug 10, 2016 2:19:53 PM com.ca.gateway.rest.commandline.command.Command runCommand
+WARNING: Error executing command
+javax.ws.rs.ProcessingException: Already connected
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:236)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:655)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:652)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:228)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:422)
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:652)
+	at com.ca.gateway.rest.api.GatewayManagementGatewayClient$IP10Bundle.putXml(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.BundleResource.importBundle(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.a(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.GatewayCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.Command.runCommand(Unknown Source)
+	at com.ca.gateway.rest.commandline.Main.main(Unknown Source)
+Caused by: java.lang.IllegalStateException: Already connected
+	at sun.net.www.protocol.http.HttpURLConnection.setRequestProperty(HttpURLConnection.java:3014)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.setRequestProperty(HttpsURLConnectionImpl.java:316)
+	at org.glassfish.jersey.client.HttpUrlConnector.setOutboundHeaders(HttpUrlConnector.java:292)
+	at org.glassfish.jersey.client.HttpUrlConnector.access$100(HttpUrlConnector.java:83)
+	at org.glassfish.jersey.client.HttpUrlConnector$3.getOutputStream(HttpUrlConnector.java:266)
+	at org.glassfish.jersey.message.internal.CommittingOutputStream.commitStream(CommittingOutputStream.java:200)
+	at org.glassfish.jersey.message.internal.CommittingOutputStream.commitStream(CommittingOutputStream.java:194)
+	at org.glassfish.jersey.message.internal.CommittingOutputStream.commit(CommittingOutputStream.java:262)
+	at org.glassfish.jersey.message.internal.OutboundMessageContext.commitStream(OutboundMessageContext.java:812)
+	at org.glassfish.jersey.client.ClientRequest.writeEntity(ClientRequest.java:526)
+	at org.glassfish.jersey.client.HttpUrlConnector._apply(HttpUrlConnector.java:270)
+	at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:182)
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:227)
+	... 14 more
+
+Aug 10, 2016 2:39:47 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Aug 10, 2016 2:39:47 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Aug 10, 2016 2:39:47 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn
+Aug 10, 2016 2:39:50 PM com.ca.gateway.rest.commandline.command.Command runCommand
+WARNING: Error executing command
+javax.ws.rs.ProcessingException: Already connected
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:236)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:655)
+	at org.glassfish.jersey.client.JerseyInvocation$1.call(JerseyInvocation.java:652)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:228)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:422)
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:652)
+	at com.ca.gateway.rest.api.GatewayManagementGatewayClient$IP10Bundle.putXml(Unknown Source)
+	at com.ca.gateway.rest.api.resource.impl.BundleResource.importBundle(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.a(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.MigrateInCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.GatewayCommand.run(Unknown Source)
+	at com.ca.gateway.rest.commandline.command.Command.runCommand(Unknown Source)
+	at com.ca.gateway.rest.commandline.Main.main(Unknown Source)
+Caused by: java.lang.IllegalStateException: Already connected
+	at sun.net.www.protocol.http.HttpURLConnection.setRequestProperty(HttpURLConnection.java:3014)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.setRequestProperty(HttpsURLConnectionImpl.java:316)
+	at org.glassfish.jersey.client.HttpUrlConnector.setOutboundHeaders(HttpUrlConnector.java:292)
+	at org.glassfish.jersey.client.HttpUrlConnector.access$100(HttpUrlConnector.java:83)
+	at org.glassfish.jersey.client.HttpUrlConnector$3.getOutputStream(HttpUrlConnector.java:266)
+	at org.glassfish.jersey.message.internal.CommittingOutputStream.commitStream(CommittingOutputStream.java:200)
+	at org.glassfish.jersey.message.internal.CommittingOutputStream.commitStream(CommittingOutputStream.java:194)
+	at org.glassfish.jersey.message.internal.CommittingOutputStream.commit(CommittingOutputStream.java:262)
+	at org.glassfish.jersey.message.internal.OutboundMessageContext.commitStream(OutboundMessageContext.java:812)
+	at org.glassfish.jersey.client.ClientRequest.writeEntity(ClientRequest.java:526)
+	at org.glassfish.jersey.client.HttpUrlConnector._apply(HttpUrlConnector.java:270)
+	at org.glassfish.jersey.client.HttpUrlConnector.apply(HttpUrlConnector.java:182)
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:227)
+	... 14 more
+
+Aug 10, 2016 3:12:41 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Aug 10, 2016 3:12:41 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Aug 10, 2016 3:12:41 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn
+Aug 10, 2016 4:13:18 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Aug 10, 2016 4:13:18 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Aug 10, 2016 4:13:18 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn
+Aug 10, 2016 4:19:23 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Aug 10, 2016 4:19:23 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Aug 10, 2016 4:19:23 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn
