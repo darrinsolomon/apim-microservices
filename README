@@ -4,7 +4,9 @@ Demo Recording: https://catechnologies.webex.com/catechnologies/lsr.php?RCID=21f
 
 route, orchestrate, threat, lac
 
-requires maven and docker
+requires maven and docker, docker-compose, and JDK1.8
+
+in the GMU directory, unzip the *.zip file.
 
 you must bring your own license.  In the run_monkey script, you'll see reference to CATechnologies_8011955308725460639_SSG_Gateway_9.xml.  Rename/move/whatever that path and point to your own license.
 
