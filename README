@@ -34,6 +34,7 @@ how to demo:
 
 Scenerio 1 - Dynamic Routing and Threat
 $ while :
+$ do
 $ curl -w '\n' -H "action:hello" http://docker-machine:8080
 $ sleep 1
 $ done
