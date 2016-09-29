@@ -1,6 +1,8 @@
 #!/bin/bash
 export SSG_LICENSE="$(cat $HOME/CATechnologies_8011955308725460639_SSG_Gateway_9.xml | gzip | base64)"
 mvn clean install
+
+#read -p "Press [Enter] key to deploy environment..."
 docker run \
         -d \
         -e MYSQL_ROOT_PASSWORD=Password1 \
@@ -37,4 +39,4 @@ done
 
 #read -p "Press [Enter] key to deploy policy..."
 cd ${PWD}/GMU
-./GatewayMigrationUtility.sh migrateIn -h ms.apim.ca -p 8443 -u pmadmin --plaintextPassword 7layer --trustCertificate --trustHostname --bundle BUNDLES/bundle_ms.xml --results OUT/results.xml
+./GatewayMigrationUtility.sh migrateIn -h localhost -p 8443 -u pmadmin --plaintextPassword 7layer --trustCertificate --trustHostname --bundle BUNDLES/bundle_ms.xml --results OUT/results.xml
