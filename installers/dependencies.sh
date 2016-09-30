@@ -24,6 +24,7 @@ sudo git clone https://github.com/darrinsolomon/apim-microservices.git /root/pro
 sudo unzip -o /root/projects/apim-microservices-master/GMU/GatewayMigrationUtility-1.3.00.zip -d /root/projects/apim-microservices-master/GMU/
 x=$(ifconfig eth0 | perl -nle 's/dr:(\S+)/print $1/ei')
 sudo grep -rl '172.16.160.129' /root/projects --exclude-dir=lacadmin | sudo xargs sed -i s/172.16.160.129/$x/g
+sudo rm /root/projects/apim-microservices-master/lacadmin/ib_logfile*
 echo ----------------------------------------------------
 echo                        
 echo		You must put your ssg license into:
