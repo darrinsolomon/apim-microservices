@@ -21,13 +21,17 @@ sudo apt-get -y install docker-engine
 sudo apt-get -y install python-pip
 sudo pip install docker-compose
 sudo mkdir /root/projects
+sudo touch /root/license.xml
 sudo git clone https://github.com/darrinsolomon/apim-microservices.git /root/projects/apim-microservices-master
 sudo unzip -o /root/projects/apim-microservices-master/GMU/GatewayMigrationUtility-1.3.00.zip -d /root/projects/apim-microservices-master/GMU/
 x=$(ifconfig eth0 | perl -nle 's/dr:(\S+)/print $1/ei')
 sudo grep -rl '172.16.160.129' /root/projects --exclude-dir=lacadmin | xargs sed -i s/172.16.160.129/$x/g
 echo ----------------------------------------------------
-echo                                                    
-echo                    Please reboot now               
+echo                        
+echo		You must put your ssg license into:
+echo			/root/license.xml                            
+echo
+echo                    Please reboot               
 echo            and login as root to continue           
 echo                                                    
 echo -----------------------------------------------------
