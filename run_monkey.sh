@@ -1,5 +1,5 @@
 #!/bin/bash
-export SSG_LICENSE="$(cat $HOME/CATechnologies_8011955308725460639_SSG_Gateway_9.xml | gzip | base64)"
+export SSG_LICENSE="$(cat $HOME/license.xml | gzip | base64)"
 mvn clean install
 
 #read -p "Press [Enter] key to deploy environment..."
