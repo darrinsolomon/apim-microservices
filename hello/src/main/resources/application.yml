@@ -20,5 +20,8 @@ eureka:
   client:
     registerWithEureka: true
     fetchRegistry: true
+    initial-instance-info-replication-interval-seconds: 0
+    instance-info-replication-interval-seconds: 1
+    registry-fetch-interval-seconds: 1
     serviceUrl:
       defaultZone: http://discovery:8761/eureka/

@@ -536,3 +536,27 @@ Nov 10, 2016 1:10:51 PM com.ca.gateway.rest.commandline.command.GatewayCommand s
 WARNING: TLS server certificate check has been disabled
 Nov 10, 2016 1:10:51 PM com.ca.gateway.rest.commandline.command.Command runCommand
 INFO: Running Command: migrateIn
+Nov 10, 2016 1:56:01 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Nov 10, 2016 1:56:01 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Nov 10, 2016 1:56:01 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn
+Nov 10, 2016 1:58:46 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Nov 10, 2016 1:58:46 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Nov 10, 2016 1:58:46 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn
+Nov 10, 2016 2:10:15 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Nov 10, 2016 2:10:15 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Nov 10, 2016 2:10:15 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn
+Nov 10, 2016 2:27:00 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS hostname verification has been disabled
+Nov 10, 2016 2:27:00 PM com.ca.gateway.rest.commandline.command.GatewayCommand setClientConfig
+WARNING: TLS server certificate check has been disabled
+Nov 10, 2016 2:27:00 PM com.ca.gateway.rest.commandline.command.Command runCommand
+INFO: Running Command: migrateIn

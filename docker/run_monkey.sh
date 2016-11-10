@@ -39,5 +39,5 @@ while [ "$ssg" != "apim-provisioning: INFO: waiting for the shutdown file at \"/
 done
 
 #read -p "Press [Enter] key to deploy policy..."
-cd ${PWD}/GMU
+cd GMU
 ./GatewayMigrationUtility.sh migrateIn -h localhost -p 8443 -u pmadmin --plaintextPassword 7layer --trustCertificate --trustHostname --bundle BUNDLES/bundle_ms.xml --results OUT/results.xml
