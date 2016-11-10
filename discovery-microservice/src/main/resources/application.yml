@@ -4,6 +4,8 @@ server:
 eureka:
   server:
     enableSelfPreservation: false
+    response-cache-update-interval-ms: 500
+    eviction-interval-timer-in-ms: 500
   instance:
     hostname: discovery
   client:

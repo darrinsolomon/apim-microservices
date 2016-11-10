@@ -10,29 +10,6 @@ configserver:
    - discovery
 hello:
   image: darrinsolomon/hello
-  ports:
-     - "8081:8080"
-  links:
-   - discovery
-   - configserver
-hello2:
-  image: darrinsolomon/hello
-  ports:
-     - "8082:8080"
-  links:
-   - discovery
-   - configserver
-hello3:
-  image: darrinsolomon/hello
-  ports:
-     - "8083:8080"
-  links:
-   - discovery
-   - configserver
-hello4:
-  image: darrinsolomon/hello
-  ports:
-     - "8084:8080"
   links:
    - discovery
    - configserver
@@ -58,7 +35,6 @@ ssg:
   ports:
     - "8080:8080"
     - "8443:8443"
-    - "9443:9443"
   environment:
     SSG_CLUSTER_COMMAND: "create"
     SSG_CLUSTER_HOST: "localhost"
@@ -79,9 +55,6 @@ ssg:
     - mysql
     - configserver
     - hello
-    - hello2
-    - hello3
-    - hello4
     - discovery
     - users
     - orderdetails
