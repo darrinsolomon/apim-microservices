@@ -2,26 +2,26 @@
 <l7:Item xmlns:l7="http://ns.l7tech.com/2010/04/gateway-management">
     <l7:Name>Bundle mappings</l7:Name>
     <l7:Type>BUNDLE MAPPINGS</l7:Type>
-    <l7:TimeStamp>2016-11-10T19:27:03.885Z</l7:TimeStamp>
-    <l7:Link rel="self" uri="https://e69ed07dc0ef:8443/restman/1.0/bundle?test=false&amp;activate=true"/>
+    <l7:TimeStamp>2016-11-18T17:46:18.612Z</l7:TimeStamp>
+    <l7:Link rel="self" uri="https://fa14ff360f3a:8443/restman/1.0/bundle?test=false&amp;activate=true"/>
     <l7:Resource>
         <l7:Mappings>
-            <l7:Mapping action="NewOrExisting" actionTaken="UsedExisting" srcId="00000000000000000000000000000002:SSL" srcUri="https://b4f934124a2e:8443/restman/1.0/privateKeys/00000000000000000000000000000002:SSL" targetId="00000000000000000000000000000002:SSL" targetUri="https://e69ed07dc0ef:8443/restman/1.0/privateKeys/00000000000000000000000000000002:SSL" type="SSG_KEY_ENTRY"/>
-            <l7:Mapping action="NewOrExisting" actionTaken="UsedExisting" srcId="0000000000000000fffffffffff5519f" srcUri="https://b4f934124a2e:8443/restman/1.0/clusterProperties/0000000000000000fffffffffff5519f" targetId="0000000000000000fffffffffff5519f" targetUri="https://e69ed07dc0ef:8443/restman/1.0/clusterProperties/0000000000000000fffffffffff5519f" type="CLUSTER_PROPERTY">
+            <l7:Mapping action="NewOrExisting" actionTaken="UsedExisting" srcId="00000000000000000000000000000002:SSL" srcUri="https://c09cd12a7074:8443/restman/1.0/privateKeys/00000000000000000000000000000002:SSL" targetId="00000000000000000000000000000002:SSL" targetUri="https://fa14ff360f3a:8443/restman/1.0/privateKeys/00000000000000000000000000000002:SSL" type="SSG_KEY_ENTRY"/>
+            <l7:Mapping action="NewOrExisting" actionTaken="UsedExisting" srcId="0000000000000000fffffffffff5519f" srcUri="https://c09cd12a7074:8443/restman/1.0/clusterProperties/0000000000000000fffffffffff5519f" targetId="0000000000000000fffffffffff5519f" targetUri="https://fa14ff360f3a:8443/restman/1.0/clusterProperties/0000000000000000fffffffffff5519f" type="CLUSTER_PROPERTY">
                 <l7:Properties>
                     <l7:Property key="MapBy">
                         <l7:StringValue>name</l7:StringValue>
                     </l7:Property>
                 </l7:Properties>
             </l7:Mapping>
-            <l7:Mapping action="NewOrExisting" actionTaken="UsedExisting" srcId="0000000000000000ffffffffffffec76" srcUri="https://b4f934124a2e:8443/restman/1.0/folders/0000000000000000ffffffffffffec76" targetId="0000000000000000ffffffffffffec76" targetUri="https://e69ed07dc0ef:8443/restman/1.0/folders/0000000000000000ffffffffffffec76" type="FOLDER">
+            <l7:Mapping action="NewOrExisting" actionTaken="UsedExisting" srcId="0000000000000000ffffffffffffec76" srcUri="https://c09cd12a7074:8443/restman/1.0/folders/0000000000000000ffffffffffffec76" targetId="0000000000000000ffffffffffffec76" targetUri="https://fa14ff360f3a:8443/restman/1.0/folders/0000000000000000ffffffffffffec76" type="FOLDER">
                 <l7:Properties>
                     <l7:Property key="FailOnNew">
                         <l7:BooleanValue>true</l7:BooleanValue>
                     </l7:Property>
                 </l7:Properties>
             </l7:Mapping>
-            <l7:Mapping action="NewOrExisting" actionTaken="CreatedNew" srcId="20a4f47c9384d03d1a0c18fd7f1acff8" srcUri="https://b4f934124a2e:8443/restman/1.0/services/20a4f47c9384d03d1a0c18fd7f1acff8" targetId="20a4f47c9384d03d1a0c18fd7f1acff8" targetUri="https://e69ed07dc0ef:8443/restman/1.0/services/20a4f47c9384d03d1a0c18fd7f1acff8" type="SERVICE"/>
+            <l7:Mapping action="NewOrExisting" actionTaken="CreatedNew" srcId="20a4f47c9384d03d1a0c18fd7f1acff8" srcUri="https://c09cd12a7074:8443/restman/1.0/services/20a4f47c9384d03d1a0c18fd7f1acff8" targetId="20a4f47c9384d03d1a0c18fd7f1acff8" targetUri="https://fa14ff360f3a:8443/restman/1.0/services/20a4f47c9384d03d1a0c18fd7f1acff8" type="SERVICE"/>
         </l7:Mappings>
     </l7:Resource>
 </l7:Item>

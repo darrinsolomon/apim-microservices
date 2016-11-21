@@ -5,15 +5,15 @@
             <l7:Name>SSL</l7:Name>
             <l7:Id>00000000000000000000000000000002:SSL</l7:Id>
             <l7:Type>SSG_KEY_ENTRY</l7:Type>
-            <l7:TimeStamp>2016-11-21T01:49:14.408Z</l7:TimeStamp>
+            <l7:TimeStamp>2016-11-10T18:03:15.761Z</l7:TimeStamp>
             <l7:Resource>
                 <l7:PrivateKey alias="SSL" id="00000000000000000000000000000002:SSL" keystoreId="00000000000000000000000000000002">
                     <l7:CertificateChain>
                         <l7:CertificateData>
                             <l7:IssuerName>CN=localhost</l7:IssuerName>
-                            <l7:SerialNumber>17658872068709610677</l7:SerialNumber>
+                            <l7:SerialNumber>7008842357427818127</l7:SerialNumber>
                             <l7:SubjectName>CN=localhost</l7:SubjectName>
-                            <l7:Encoded>MIIC7TCCAdWgAwIBAgIJAPUQ6pX1gPS1MA0GCSqGSIb3DQEBDAUAMBQxEjAQBgNVBAMTCWxvY2FsaG9zdDAeFw0xNjExMTgxNjQ1NDhaFw0yNjExMTYxNjQ1NDhaMBQxEjAQBgNVBAMTCWxvY2FsaG9zdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAM3eBbTMungbdJCDiHpaf4ew91cAuaiX3vTSUU3wOqYT2zINoVIUyB40+y9NmjpAey1miMlzzGjK53OVdRHoe4uaFG+ahIxL8WK5raJktzTAim03Bh8s22HplZigb/+P+HIPUrGqAeBN5zxqsjpcLN+pfwh/5lfDBpB3yazDkxT77kkV8eisykahATkRONxe2k+9MBNaGfE2nIgjzqEdjnnrUywRI59YkYLrYbbfj79RK65f45doH9sclJ7YDWjiqdHJLuFuy++IoQf5I0uloKm+WQkJI6l7jE7GYbLTdsGfqk7DqgLEfC7e5jX+vgwMI2XXrIQ0lU9jSWTpHWGWGnMCAwEAAaNCMEAwHQYDVR0OBBYEFLuVVWEnDNlgZ85L4YPrnoGLms9yMB8GA1UdIwQYMBaAFLuVVWEnDNlgZ85L4YPrnoGLms9yMA0GCSqGSIb3DQEBDAUAA4IBAQCrJCsJmrQiK7KjNSbKQvbm2Amo/VMGhb/m/Vl6CR1ojOGizWLn0SvwyhLdmB/b8mDbgEKcXoD3tuZAaETeWw0wdFUP7Ymf8QJrL9hqTtsTulCe0oVmUwksUQMr8eujxFFkbZuNbsetLal9v/AnNBQDiiHOE3wsjXAmIersugA5sx4ExE4wf6ujOxaasjQwOlVj8obtivcAxcYiPZ6ijQn86CY5YhonykAxGuIDb1qcb63kVr9hvKPHuzjS3OJG0In6vAdBLNYsZKDfrYIXymM7BVYnszJfRJ7Y8nz/U1hoHI1GYQ36Aj6aU5Ymiu82MWx0m4D+098HsH7/8D69+FFD</l7:Encoded>
+                            <l7:Encoded>MIIC7DCCAdSgAwIBAgIIYURo/VkyTo8wDQYJKoZIhvcNAQEMBQAwFDESMBAGA1UEAxMJbG9jYWxob3N0MB4XDTE2MTExMDE2NDkzMFoXDTI2MTEwODE2NDkzMFowFDESMBAGA1UEAxMJbG9jYWxob3N0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApAyF0Fm1Sly3j9dOtjMyF7q/IMOcJmqjxsliUA2iYurnAmBbj0/USp9n3iTR7gtOerPKEj4+ak8dip4p1VkUP6K8sXemR40cvZCmcKhxbONiTYMJtYhnJ88o+P+eadoVVjV3aBDF+ExxSiyZ5rKZqrA4mI+wDWKRQmbOWnSV3eFEgTqW2Fw7VhrqjwxO5Ob9XnqCMv6Um/Zc9MhVMJW9VppmFlmlJCDnjChJ8lxkIrvukjKLMI+YcyqmBQjD972d39HvCArOcU7/gvzYGx2xazn9LpM3eEtecUbxIVJ2aJ47Ec58BCyfa9s8ssEuBiZpgRYhMfCAdM8fvtHAILn8+wIDAQABo0IwQDAdBgNVHQ4EFgQULIaMxFt3L2zWqoAXxemGIOCgqHgwHwYDVR0jBBgwFoAULIaMxFt3L2zWqoAXxemGIOCgqHgwDQYJKoZIhvcNAQEMBQADggEBABe/LC+kL50ooLB6o3NgIlXYyE8NHb6Ba9vtOxSkHvpULpmWelHURhXe1RF+Uec4l3HaB+xRC2UodCEEkqewp1ctOESJuwPX4tIt7XD6eBnlWADtglhylIlx+x2EW3zQakZitU2kxnuUm0MWT1CM5vY2Fk8TkU/OsQ7hcu/2d4o2xs/KOzmamfMbNXN5IB2c0sUx/r81vPYA8kR4YlaY4cwMk2p/FzQ08B+k/20yjF7VKIjZqwgc4bAcLxbzjrDzMwI2869/1b41kykCos86zJfl7O6MCjFgIhxD6aCfx5gZYV5DLYIZ5Cm0zJvBMmW/Ux4Qt0UXKTYhS6eQ7/Hu1UE=</l7:Encoded>
                         </l7:CertificateData>
                     </l7:CertificateChain>
                     <l7:Properties>
@@ -21,7 +21,7 @@
                             <l7:StringValue>RSA</l7:StringValue>
                         </l7:Property>
                         <l7:Property key="keyData">
-                            <l7:StringValue algorithm="RSA" bundleKey="$L7C2$1bead,Gb5RSRguiAOy8QstK4+edfUX+e3CKHY+0H3anMahFmM=$GjcUtv0/sllWqTCutmbUZMuSY/523F9CHqM/vAyjiKEwhZgOOjUQDxR2o4XgCfAgTpIH/Z2cuKZkZrr7Uqt9f4syci+S0mdiwCp6Hf7aIOodHwAb7FGaExQf7axjTHF8">$L7C2$1,cqRWIo/vwwhGcnmlDpixIQ7ZUFy6hFe/05fikhTREHQ=$JTrndtgf3MEIIHqQ1t3MJgxm+zzcwNQha11GpWbs9ya7CnMs+XLzFjxLWJy+39qQugWGJRynXfsEH+bLVAm4INLeyeODaYQzhca6gNtDDnncEBsE8g1lteZ8I7ekhRKV4/MQ2A/NrisRcjWQMXqfGlCW66rX/elRiFKaZxu5Dz4IYvq72nKpU+B+vmFs2SogJZJHz/dhmcGLkNAGev4ZkJySH8v0m9eeHRyEycLHKtYxa42W74Pd4otOq8/GwZ3w0aDdGP6+duXTKw3R6T18F2o6TMZ8wKkkbiJjzGUmC8ziFReCWdYKxiwibiHRfIrl5nYy6eFGyO34suexVIOd1TkdBP8LS2+rxw4jyzWOir0r4RgETqMASgC3UvyxQhs9VQ6aXQvhcUSPPrVubDCwj2ye8G8drvRxUHOjyVWZaVCXUH6D1hFmSkNxjEF/aYDM58heLEEemZk7QSUKJxNVTmGMnJIu1H/26bxpvyP7Mh93X7/mh3za5EiG1+dbL4pbbeKOdUUoadP6LQvyrH3sUyfNs9bcKaFnzxAIwRfiBKosOK5gImCdpnDizf4ukqKbt9rH8qOVT79/UAiAVEnvDoKOrEbU2YhbZJ6HtekvBWkK1cNABePE6VH3WjLJz1rJ0NU/5wYwTQHty8NYdtX/9IUSiu+SdrVn7a8t5XII8oNXxxPZQcqTAJmZFvM5+eaPWDqIH3y7MmbMFnUfc01VZJkT3GkTxKv1ewjimAxaDcI6El0xqxWIwGrBmOg/NlozbCjAIAzfqladOyaGIp0fvAfl9vawJ5J0wk1P6LWG1Sff0v9w+8uB0ROrTjvx5nujEXdU6CQInB0dRKHBvG/DNPJeTYFYdYV+sOmHy/vbdqkj/Ru6x2PQMia0mEMW8DHwIa2cENbohL/BnoS+8mvTef6PKEpsYx/n+Ei3q0EPtjU4q+kH6EXQ9BIvPIf3HvWHbLbsc2yhmhu2BnGeJDXXsTIJD1Cn8Qht7PhrZYUXC0o8bmHfkxKBPuzWsmPAoMq2WULbU5GREsQe2WXuE//tAGM2lvrSiqqVe2TlAVd3LUhLjfOrN8XsLx1pZ8Nqf+KFTDbnsbWDGP2fEltFuiS3QJsmPWF5r1WifUiDtzcz83319xXhfm++6ePLdvpjAkF7ZZeOLBxT/uQXrQJnuDiKavPe7qjX4JBf5Ig/SC46iL273oAiD+edXRop/mlBP8imMsUqzMfBHa/m2yHDML5UHsz14+68Vhf/qh/GqyA7nYvsuAge+XcmxOAeuMEzRTglIg+yoX/QLDMTkOhVAKcd7UgWqmdLAuLqZT4ITbfB666dZ6NR1isSeScYRhxMqBite/cIC2w3sUaQ/l258TuXzRfYhmvtpRtBBCYCsz5voBsclKt+II6qZ18AZwbJbpDBhyQOQvpgxtHcqukKfuz929FnjOK/oXQNCYmMRrFyL8v4ltbnNjQ3jWbLrleSsKBT1nCbzfIPPHKrJ1GDRZsKXe3ftiUorK0IL5KWW8Puasml6vRC7X9P3Ld1nrhYFWfKvlBo/uF+IvPpucHJ9yQplKQhGNXvEZ0gjbnHFnUyoJDarkHMbANAYX2uFd3Kbuqui3s/OMFlFNRzwQUHN7RRLxktcoOt6lxWwcN3OJjq5k7L6ZfEaKTIRCPl7YK2pRWCecW5OG+aL3wn84CBMcO2FdjyBvQ3qR+6VtOjk6yrlAs=</l7:StringValue>
+                            <l7:StringValue algorithm="RSA" bundleKey="$L7C2$1bead,nKnzf8F8QhUVBXY6DNkYXQoNLWthtWlWhvOya/7cxZ0=$gz4NpLKx+Kn3+SezD8i9fzZVo0tpQ+Nc/6bctJFgERWN+XvCQtQCSLr4zHL5irApVtsM/HX2okzWcmIuhgrlpC4qMjjPkI7NCF+B3HJv53pnCMP2+IQzBx/o5kGaqarM">$L7C2$1,8J02TIf5OAXjTsIu/AqZK16esbEtfrGF9Iu/pQrCTdY=$XOwIW0p53YS/MuDI54xEM/QwfVWmbMP4fANtloOrTy4if70V084db7v1gWzBNkFZfLJIyk/wJdqACgPQP3EXAe9pbHrmrNtCWVSqMkTxxvItJxXHpItPyqzkQhiTvE6Q7AEa1cMrPYmV9+JMyGJuJUSiOi/bQc7+NMo+5ifOFB8iCZPi2oxT+DBNiHBRjtxXPGrevdWMOhoD44zi9x+tIQo0Yi9z4nyy87e4vse/9UwqrNb31NtPMO1ljP0BZj3TVySEGPx+XC/wv4JkNR5JMGgLSBKGelZTkZqQOekGH9qqKRZBMXr4V9a3hWkLc5bGmZZoJ+gYqThGkOwoM3w02Vy4blZ29M+a0BZpOSGESVJSIz65ad1WdJs947zmvr6JDNG2X+CM9L6x+ASroKkC38tm9CmwQy6VPw7OxQG7fC24S9n6jH9PI+I8tnbi65jUhwXnxqLB0PBEc55pFEROWe6iMII105oN61N+4JHFIaG8Ii+cdmJsRSFTEobMIHLh6vkcVYY1J9TpUVwdH2tlgUvXHwy8zdU5L1nWYFc69/tFQTbEAo/PTlBwViNuppFkuC6LzoPoKl9lTtFTWVa4UDOtdWZ27IY7EwtDfX4a6tCiIaJ40lrdwvuw52l/8strneIZJ0LgcrQQoRGRZMedYVulEuPkkCuwuJlK7k2mWdop6oue4npLb+iKsaZxlep6EH1htxjv8l/Ymlv1N4j3hb8vShmzoqInpjLagAgglbqo6yGu4CZyfXRijaH8kRQC8tj4G/CN8LU758jbb13zkpNjNsn0NMFQWLbMQmqI//9Q6w059NXDp0esvizRvhDcFgkXNQt9G7ZsYfr875eQIeEERFZpAMsr/Ez4sUlKrtIjWLrdqe8agWxNcd7YYd+wjJ4VkwfnoumMqzXmgO8Ekm6UruAkjEjbrCLwl2NIPWMr2iYGd4K55pScctLiXVUpi18taNhERwQvJ9T+yMv1YX5XRm5eWpBgLz0e1Ewxw1+kUFRfYkyalbrwwZxRQCCCBlhzHdHvhxVV/CX7cfyqSLEjGnZ3nKCBwfVjlLlTCyVyIV3feL/noW8ik84jBD+7KWwsf3eLBHUtw902edyyoN76eiDZYbo29Y/EL8aLzuZGjFx6ePL0rc+jPBETugq9IHPu/mOYYvPoAFt01iMENw/JmuoaAi+leJG3YeFn6T5fjguAb1eH43rZBPfQIqW9EF72nSalyK9L7iOV4NACfWaDg812UUuQBqBeNpf1KdRlhlWdnEEDMqOo6YviD9UQovfdQc8XLaJYKh3WYTAQmCTVWLoREnXLEe9FagELyzb6jmyPLUW45VuFQKWSRksk5bPQb22pX4QHbXSth0jNoyI+3IRyZRKJC86oeVsmEwu88ZW8k3xnQLr7ILqWDg0IHn1RlWelhCw3pbVohyFoBMvF/V1ARxgyNOplefkKrw39UAP41u4Z99KCS6pPXv9+3M+EtXqCU/MccU6R/q2U9eAyRwLFeUjzg+j/N33tPMxbf/WjI89I0X8RXle5ArVn20MVwoSMyJHnd+IrphHp9lQXh4AhbQZ0tUqYT5VCkrvR6okIS2CIqpgkJD+yibzugeMx0FoCDE+5vxNJf9yLodf3KP9ZQhXxrhQDZWRcJgycQgp/hRcEoCeYuwAQpAr7JszoUQ7qnuVJKgCryrjQCuKr71KK+xdVrCLdmXFp2F0=</l7:StringValue>
                         </l7:Property>
                     </l7:Properties>
                 </l7:PrivateKey>
@@ -31,7 +31,7 @@
             <l7:Name>cluster.hostname</l7:Name>
             <l7:Id>0000000000000000fffffffffff5519f</l7:Id>
             <l7:Type>CLUSTER_PROPERTY</l7:Type>
-            <l7:TimeStamp>2016-11-21T01:49:14.409Z</l7:TimeStamp>
+            <l7:TimeStamp>2016-11-10T18:03:15.761Z</l7:TimeStamp>
             <l7:Resource>
                 <l7:ClusterProperty id="0000000000000000fffffffffff5519f" version="1">
                     <l7:Name>cluster.hostname</l7:Name>
@@ -43,7 +43,7 @@
             <l7:Name>microservice</l7:Name>
             <l7:Id>20a4f47c9384d03d1a0c18fd7f1acff8</l7:Id>
             <l7:Type>SERVICE</l7:Type>
-            <l7:TimeStamp>2016-11-21T01:49:14.484Z</l7:TimeStamp>
+            <l7:TimeStamp>2016-11-10T18:03:15.816Z</l7:TimeStamp>
             <l7:Resource>
                 <l7:Service id="20a4f47c9384d03d1a0c18fd7f1acff8" version="2">
                     <l7:ServiceDetail folderId="0000000000000000ffffffffffffec76" id="20a4f47c9384d03d1a0c18fd7f1acff8" version="2">
@@ -65,7 +65,7 @@
                                 <l7:BooleanValue>false</l7:BooleanValue>
                             </l7:Property>
                             <l7:Property key="policyRevision">
-                                <l7:LongValue>2</l7:LongValue>
+                                <l7:LongValue>3</l7:LongValue>
                             </l7:Property>
                             <l7:Property key="soap">
                                 <l7:BooleanValue>false</l7:BooleanValue>
@@ -80,7 +80,7 @@
                     </l7:ServiceDetail>
                     <l7:Resources>
                         <l7:ResourceSet tag="policy">
-                            <l7:Resource type="policy" version="1">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+                            <l7:Resource type="policy" version="2">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;wsp:Policy xmlns:L7p="http://www.layer7tech.com/ws/policy" xmlns:wsp="http://schemas.xmlsoap.org/ws/2002/12/policy"&gt;
     &lt;wsp:All wsp:Usage="Required"&gt;
         &lt;L7p:AuditAssertion/&gt;
@@ -392,10 +392,6 @@
                         &lt;/L7p:item&gt;
                     &lt;/L7p:Predicates&gt;
                 &lt;/L7p:ComparisonAssertion&gt;
-                &lt;L7p:SetVariable&gt;
-                    &lt;L7p:Base64Expression stringValue=""/&gt;
-                    &lt;L7p:VariableToSet stringValue="attemptedroutes"/&gt;
-                &lt;/L7p:SetVariable&gt;
                 &lt;wsp:OneOrMore wsp:Usage="Required"&gt;
                     &lt;wsp:All wsp:Usage="Required"&gt;
                         &lt;L7p:CacheLookup&gt;
@@ -560,32 +556,6 @@
                     &lt;/L7p:ExecuteRoutingStrategy&gt;
                     &lt;wsp:OneOrMore wsp:Usage="Required"&gt;
                         &lt;wsp:All wsp:Usage="Required"&gt;
-                            &lt;L7p:ComparisonAssertion&gt;
-                                &lt;L7p:CaseSensitive booleanValue="false"/&gt;
-                                &lt;L7p:Expression1 stringValue="${attemptedroutes}"/&gt;
-                                &lt;L7p:Operator operatorNull="null"/&gt;
-                                &lt;L7p:Predicates predicates="included"&gt;
-                                    &lt;L7p:item dataType="included"&gt;
-                                    &lt;L7p:Type variableDataType="string"/&gt;
-                                    &lt;/L7p:item&gt;
-                                    &lt;L7p:item binary="included"&gt;
-                                    &lt;L7p:Operator operator="EMPTY"/&gt;
-                                    &lt;L7p:RightValue stringValue="hello"/&gt;
-                                    &lt;/L7p:item&gt;
-                                &lt;/L7p:Predicates&gt;
-                            &lt;/L7p:ComparisonAssertion&gt;
-                            &lt;L7p:SetVariable&gt;
-                                &lt;L7p:Base64Expression stringValue="JHtyb3V0ZX0="/&gt;
-                                &lt;L7p:VariableToSet stringValue="attemptedroutes"/&gt;
-                            &lt;/L7p:SetVariable&gt;
-                        &lt;/wsp:All&gt;
-                        &lt;L7p:SetVariable&gt;
-                            &lt;L7p:Base64Expression stringValue="JHthdHRlbXB0ZWRyb3V0ZXN9ICR7cm91dGV9"/&gt;
-                            &lt;L7p:VariableToSet stringValue="attemptedroutes"/&gt;
-                        &lt;/L7p:SetVariable&gt;
-                    &lt;/wsp:OneOrMore&gt;
-                    &lt;wsp:OneOrMore wsp:Usage="Required"&gt;
-                        &lt;wsp:All wsp:Usage="Required"&gt;
                             &lt;L7p:HttpRoutingAssertion&gt;
                                 &lt;L7p:ConnectionTimeout stringValue="3000"/&gt;
                                 &lt;L7p:HttpMethod httpMethod="GET"/&gt;
@@ -634,12 +604,12 @@
                                     &lt;/L7p:Predicates&gt;
                                     &lt;/L7p:ComparisonAssertion&gt;
                                     &lt;L7p:HardcodedResponse&gt;
-                                    &lt;L7p:Base64ResponseBody stringValue="Um91dGVzIEZyb20gRXVyZWthICR7ZW5kcG9pbnRjb3VudC5yZXN1bHR9IDogJHtlbmRwb2ludGxpc3QucmVzdWx0fQkJcm91dGVzIGF0dGVtcHRlZDogJHthdHRlbXB0ZWRyb3V0ZXN9LCBzZWxlY3RlZCByb3V0ZTogJHtyb3V0ZX0sIFRvdGFsIGxhdGVuY3k6ICR7cmVxdWVzdC5lbGFwc2VkVGltZX1tcw=="/&gt;
+                                    &lt;L7p:Base64ResponseBody stringValue="Um91dGVzIEZyb20gRXVyZWthICR7ZW5kcG9pbnRjb3VudC5yZXN1bHR9IDogJHtlbmRwb2ludGxpc3QucmVzdWx0fQkJeyJzZWxlY3RlZCByb3V0ZSI6ICIke3JvdXRlfSIsICJIVFRQIjogW1sibGF0ZW5jeSIsICIke3JlcXVlc3QuZWxhcHNlZFRpbWV9bXMiXSwgWyJyZWFzb25jb2RlIiwgIiR7aHR0cHJvdXRpbmcucmVhc29uQ29kZX0iXV19CSAJ"/&gt;
                                     &lt;L7p:ResponseContentType stringValue="text/plain; charset=UTF-8"/&gt;
                                     &lt;/L7p:HardcodedResponse&gt;
                                 &lt;/wsp:All&gt;
                                 &lt;L7p:HardcodedResponse&gt;
-                                    &lt;L7p:Base64ResponseBody stringValue="IFJvdXRlcyBGcm9tIENhY2hlICR7ZW5kcG9pbnRjb3VudC5yZXN1bHR9IDogJHtlbmRwb2ludGxpc3QucmVzdWx0fQkJcm91dGVzIGF0dGVtcHRlZDogJHthdHRlbXB0ZWRyb3V0ZXN9LCBzZWxlY3RlZCByb3V0ZTogJHtyb3V0ZX0sIFRvdGFsIGxhdGVuY3k6ICR7cmVxdWVzdC5lbGFwc2VkVGltZX1tcw=="/&gt;
+                                    &lt;L7p:Base64ResponseBody stringValue="IFJvdXRlcyBGcm9tIENhY2hlICR7ZW5kcG9pbnRjb3VudC5yZXN1bHR9IDogJHtlbmRwb2ludGxpc3QucmVzdWx0fQkJeyJzZWxlY3RlZCByb3V0ZSI6ICIke3JvdXRlfSIsICJIVFRQIjogW1sibGF0ZW5jeSIsICIke3JlcXVlc3QuZWxhcHNlZFRpbWV9bXMiXSwgWyJyZWFzb25jb2RlIiwgIiR7aHR0cHJvdXRpbmcucmVhc29uQ29kZX0iXV19CSAJ"/&gt;
                                     &lt;L7p:ResponseContentType stringValue="text/plain; charset=UTF-8"/&gt;
                                 &lt;/L7p:HardcodedResponse&gt;
                             &lt;/wsp:OneOrMore&gt;
@@ -747,21 +717,21 @@
         </l7:Item>
     </l7:References>
     <l7:Mappings>
-        <l7:Mapping action="NewOrExisting" srcId="00000000000000000000000000000002:SSL" srcUri="https://fa14ff360f3a:8443/restman/1.0/privateKeys/00000000000000000000000000000002:SSL" type="SSG_KEY_ENTRY"/>
-        <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffff5519f" srcUri="https://fa14ff360f3a:8443/restman/1.0/clusterProperties/0000000000000000fffffffffff5519f" type="CLUSTER_PROPERTY">
+        <l7:Mapping action="NewOrExisting" srcId="00000000000000000000000000000002:SSL" srcUri="https://b4f934124a2e:8443/restman/1.0/privateKeys/00000000000000000000000000000002:SSL" type="SSG_KEY_ENTRY"/>
+        <l7:Mapping action="NewOrExisting" srcId="0000000000000000fffffffffff5519f" srcUri="https://b4f934124a2e:8443/restman/1.0/clusterProperties/0000000000000000fffffffffff5519f" type="CLUSTER_PROPERTY">
             <l7:Properties>
                 <l7:Property key="MapBy">
                     <l7:StringValue>name</l7:StringValue>
                 </l7:Property>
             </l7:Properties>
         </l7:Mapping>
-        <l7:Mapping action="NewOrExisting" srcId="0000000000000000ffffffffffffec76" srcUri="https://fa14ff360f3a:8443/restman/1.0/folders/0000000000000000ffffffffffffec76" type="FOLDER">
+        <l7:Mapping action="NewOrExisting" srcId="0000000000000000ffffffffffffec76" srcUri="https://b4f934124a2e:8443/restman/1.0/folders/0000000000000000ffffffffffffec76" type="FOLDER">
             <l7:Properties>
                 <l7:Property key="FailOnNew">
                     <l7:BooleanValue>true</l7:BooleanValue>
                 </l7:Property>
             </l7:Properties>
         </l7:Mapping>
-        <l7:Mapping action="NewOrExisting" srcId="20a4f47c9384d03d1a0c18fd7f1acff8" srcUri="https://fa14ff360f3a:8443/restman/1.0/services/20a4f47c9384d03d1a0c18fd7f1acff8" type="SERVICE"/>
+        <l7:Mapping action="NewOrExisting" srcId="20a4f47c9384d03d1a0c18fd7f1acff8" srcUri="https://b4f934124a2e:8443/restman/1.0/services/20a4f47c9384d03d1a0c18fd7f1acff8" type="SERVICE"/>
     </l7:Mappings>
 </l7:Bundle>
