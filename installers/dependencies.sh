@@ -18,6 +18,7 @@ sudo apt-get -y update
 sudo apt-get -y install docker-engine
 sudo apt-get -y install python-pip
 sudo pip install docker-compose
+sudo pip install --upgrade pip
 sudo mkdir /root/projects
 sudo touch /root/license.xml
 sudo git clone https://github.com/darrinsolomon/apim-microservices.git /root/projects/apim-microservices-master
